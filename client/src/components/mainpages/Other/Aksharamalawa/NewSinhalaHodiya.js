@@ -94,6 +94,7 @@ function NewSinhalaHodiya() {
     const [showCatNotInc,setShowCatNotInc] = useState(false);
 
     const [LetterBoxActive,setLetterBoxActive] = useState("Fristbox");
+    const [SwravisLetterBoxActive,setSwravisLetterBoxActive] = useState("FristSwarabox");
 
   return (
     <div className='NuthanahodiyaMain'>
@@ -5390,6 +5391,9 @@ function NewSinhalaHodiya() {
                             
 
                                    <a className='moreStudy' href='#'>වැඩිදුර අධ්‍යනය කරන්න ➢</a>
+                        </div>
+                        <div>
+                            
                         </div>
                         
                 </div>

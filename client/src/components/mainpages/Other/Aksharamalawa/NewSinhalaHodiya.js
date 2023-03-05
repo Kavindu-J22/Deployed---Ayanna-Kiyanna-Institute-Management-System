@@ -5379,6 +5379,8 @@ function NewSinhalaHodiya() {
                
                        <div className='AakuruwistharamainboxContent MAINswyawiyaa'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowSwara(!showSwara)}><i class="fa-solid fa-circle-xmark"></i></a></div>
+                            {
+                            SwravisLetterBoxActive === "FristSwarabox" && <div className='MAINswyawiyaa1'>
                             <h1>ස්වර</h1>
                             <p>වෙනත් කිසිදු අක්ෂරයක උපකාරකින් තොරව භාෂාවේ තනිව ශබ්ද කළ හැකි අක්ෂර විශේෂය ස්වර නම් වේ. එලෙස තනිව හැසිරිය හැකි බැවින් මෙම අක්ෂරයන්ට පණ ඇති සේ සලකා "පණකුරු" හෙවත් "ප්‍රාණාක්ෂර"ලෙසින් ද හැඳින්වේ. ස්වකීය රාවයක් හෙවත් තමන්ගේ ම හඬක් මෙම අක්ෂරයන්ට ඇත.</p>
                             <p>ස්වරවල ප්‍රභේද :- සියලු ම ස්වර,</p>
@@ -5390,10 +5392,30 @@ function NewSinhalaHodiya() {
                             <p>යනුවෙන් මූලික කොටස් දෙකකට බෙදා දැක්විය හැකි වේ. ඊට අමතරව ස්වර මාලාවේ දක්නට ලැබෙන තවත් ප්‍රභේදයන් කිහිපයකි. එනම්,</p>
                             
 
-                                   <a className='moreStudy' href='#'>වැඩිදුර අධ්‍යනය කරන්න ➢</a>
-                        </div>
-                        <div>
-                            
+                                   <a className='moreStudy' onClick={()=>setSwravisLetterBoxActive("FristSwarabox2")} href='#'>වැඩිදුර අධ්‍යනය කරන්න ➢</a>
+                            </div>
+                            }
+
+                           {
+                            SwravisLetterBoxActive === "FristSwarabox2" && <div className='MAINswyawiyaa2' data-aos="slide-left">
+                                <ul>
+                                <li>1.	සන්ධ්‍යක්ෂර ("සන්ධ්‍යක්ෂර" යටතේ වැඩිදුර විස්තර ඇත)</li><hr/>
+                                <li>2.	සංයුක්ත ස්වර ("සන්ධ්‍යක්ෂර" යටතේ වැඩිදුර විස්තර ඇත)</li><hr/>
+                                <li>3.	නම්‍ය ස්වර ("නම්‍ය ස්වර" යටතේ වැඩිදුර විස්තර ඇත)</li><hr/>
+                                <li>4.	අනම්‍ය ස්වර ("අනම්‍ය ස්වර" යටතේ වැඩිදුර විස්තර ඇත)</li><hr/>
+                                </ul>
+                                <p>දිවේ ක්‍රියාකාරීත්වය අනුව සියලු ම ස්වර ශබ්ද පූර්ව, මධ්‍ය, අපර වශයෙන් කොටස් තුනකට නැවත බෙදා දැක්විය හැකිය.</p>
+                                <ul>
+                                <li>1.	පූර්ව ස්වර	- දිවේ ඉදිරි කොටස තල්ලේ පූර්ව කොටස දෙසට නැඹුරු වීමෙන් උපදින ස්වර ශබ්ද පූර්ව ස්වරයි.<br/>ඇ, ඈ, ඉ, ඊ, එ, ඒ (ඍ, ඎ, ඏ, ඐ)</li>
+                                <li>2.	මධ්‍ය ස්වර	- දිව තල්ලේ පූර්ව කොටසට හෝ අපර කෙටසට නැඹුරු නොවී උපදින ස්වර ශබ්ද මධ්‍ය ස්වරයි. සංවෘත ස්වර</li>
+                                <li>3.	අපර ස්වර  - දිවේ පසු කොටස තල්ලේ අපර කොටස දෙසට නැඹුරු වීමෙන් උපදින ස්වර ශබ්ද අපර ස්වරයි.<br/>අ, ආ, උ, ඌ, ඔ, ඕ (ඓ, ඖ)</li>
+
+                                </ul>
+
+                                <a className='moreStudy' onClick={()=>setSwravisLetterBoxActive("FristSwarabox")} href='#'>⟵ ආපසු බලන්න </a>
+                            </div>
+                            }
+
                         </div>
                         
                 </div>

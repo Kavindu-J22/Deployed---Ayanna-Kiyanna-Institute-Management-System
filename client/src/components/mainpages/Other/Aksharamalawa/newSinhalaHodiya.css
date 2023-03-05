@@ -1376,6 +1376,8 @@
     color: #d70303aa;
 }
 .MAINswyawiyaa h1{
+    display: flex;
+    justify-content: center;
     font-size: 5.5em;
     text-shadow: 0 0 15px rgba(29, 27, 27, 0.923);
 }
@@ -1396,6 +1398,7 @@
     text-shadow: 0 0 3px rgb(204, 198, 198);
     transition: .4s;
     margin: 20px 0;
+    margin-left: 30%;
 }
 .MAINswyawiyaa .moreStudy:hover{
     transform: scale(1.1);
@@ -1448,4 +1451,7 @@
     font-weight: bold;
     margin: 10px;
     list-style: circle;
+}
+.MAINswyawiyaa2{
+    padding-top: 40px;
 }

@@ -744,23 +744,23 @@
     z-index: -1; 
     transition-duration: .4s;
     opacity: 1;
-    filter: grayscale(.7);
+    filter: grayscale(.5);
     transition: .4s;
 }
 .s2ndslideimg:hover{
     transform: translateY(-10px);
 }
 .sbg1{
-    background-image: url(../../assets/images/sli1.png);
+    background-image: url(../../assets/images/Sli1.png);
 }
 .sbg2{
-    background-image: url(../../assets/images/sli2.png);
+    background-image: url(../../assets/images/Sli2.png);
 }
 .sbg3{
-    background-image: url(../../assets/images/sli3.png);
+    background-image: url(../../assets/images/Sli3.png);
 }
 .sbg4{
-    background-image: url(../../assets/images/sli4.png);
+    background-image: url(../../assets/images/SecSli1.png);
 }
 .SE2nddotslider input:checked+.sradiolbl{
     background-color: #fff;

@@ -4,10 +4,12 @@ import axios from 'axios'
 import swal from 'sweetalert'
 import "./sehome.css";
 import Sehomeimg from "../../assets/images/SEphoto.png"
-import Sli1 from "../../assets/images/sli1.png"
-import Sli2 from "../../assets/images/sli2.png"
-import Sli3 from "../../assets/images/sli3.png"
-import Sli4 from "../../assets/images/sli4.png"
+import Sli1 from "../../assets/images/Sli1.png"
+import Sli2 from "../../assets/images/Sli2.png"
+import Sli3 from "../../assets/images/Sli3.png"
+import Sli4 from "../../assets/images/Sli4.png"
+import Sli5 from "../../assets/images/Sli5.png"
+import Sli6 from "../../assets/images/Sli6.png"
 
 
 
@@ -76,7 +78,7 @@ function Sehome(){
           <div className="Secarrousel">
 
               <div className="Secarrousel-img">
-                <a href="https://www.youtube.com/@ayannakiyanna2242"><img src={Sli1} alt="" /></a>
+                <a href="#"><img src={Sli1} alt="" /></a>
                 <h2></h2>
                 </div>
 
@@ -96,12 +98,12 @@ function Sehome(){
                 </div>
 
               <div className="Secarrousel-img">
-                <a><img src={Sli2} alt="" /></a>
+                <a><img src={Sli5} alt="" /></a>
                 <h2></h2>
                 </div>
 
               <div className="Secarrousel-img">
-                <a><img src={Sli1} alt="" /></a>
+                <a><img src={Sli6} alt="" /></a>
                 <h2></h2>
                 </div>
 

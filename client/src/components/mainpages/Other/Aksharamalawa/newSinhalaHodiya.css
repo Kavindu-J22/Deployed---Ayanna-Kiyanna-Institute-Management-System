@@ -1382,20 +1382,21 @@
     text-shadow: 0 0 15px rgba(29, 27, 27, 0.923);
 }
 .MAINswyawiyaa .moreStudy{
-    color: #161623;
+    color: #000000;
     font-weight: 800;
     width: 200px;
     height: 40px;
     display: flex;
+    font-style: italic;
     justify-content: center;
     align-items: center;
-    background: rgba(255, 255, 255, 0.359);
+    background: rgba(255, 255, 255, 0.225);
     border-radius: 10px;
     border: 1px solid rgba(78, 75, 75, 0.748);
     border-top: 1px solid rgba(255, 255, 255, 0.318);
     border-left: 1px solid rgba(255, 255, 255, 0.318);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.456);
-    text-shadow: 0 0 3px rgb(204, 198, 198);
+    text-shadow: 0 0 3px rgb(152, 140, 140);
     transition: .4s;
     margin: 20px 0;
     margin-left: 30%;
@@ -1454,4 +1455,8 @@
 }
 .MAINswyawiyaa2{
     padding-top: 40px;
+}
+.NewnewUlNewThree span{
+    font-size: 20px;
+    color: #000;
 }

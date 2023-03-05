@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Noto+Sans+Sinhala:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.about{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #161922;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about .about-main{
+    width: 1280px;
+    max-width: 95%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.about .about-main img{
+    height: auto;
+    width: 500px;
+    max-width: 100%;
+    transition: .4s;
+}
+.about .about-main img:hover{
+    transform: scale(1.1);
+}
+.about-text{
+    width: 550px;
+    max-width: 100%;
+    padding: 0 10px;
+}
+.about-text h1{
+    color: #ffcc74;
+    font-size: 85px;
+    margin-bottom: 20px;
+    transition: .4s;
+}
+.about-text h1:hover{
+    transform: scale(1.1);
+}
+.about-text h5{
+    color: rgba(255, 255, 255, 0.925);
+    font-size: 25px;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+.about-text p{
+    color: #c0c4d6;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    margin-bottom: 45px;
+}
+.Abt-btn{
+    background: #ffcc74;
+    color: black;
+    border: 2px solid transparent;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: bold;
+    transition: .4s;
+    margin-right: 20px;
+}
+.Abt-btn:hover{
+    transform: scale(1.1);
+    border: 2px solid #ffcc74;
+    color: #ffcc74;
+    background-color: transparent;
+    border: 2px solid #ffcc74;
+    cursor: pointer;
+}
+@media screen and (max-width: 1180px) {
+    .about{
+        width: 100%;
+        height: auto;
+        padding: 70px 0px;
+    }
+}
+@media screen and (max-width: 650px){
+    .about .about-main img{
+       margin-bottom: 35px; 
+    }
+    .about-text h1{
+        font-size: 60px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    .about-text h5,p{
+        text-align: center;
+    }
+    .Abt-btn{
+        width: 170px;
+        margin: 10px 25%;
+    }
+}
+
+/* second part */
+
+.About-Card-container{
+    position: relative;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin-top:  80px;
+}
+.About-Card-container .About-card{
+    position: relative;
+    max-width: 300px;
+    height: 220px;
+    background: rgba(255, 255, 255, 0.604);
+    margin: 40px 20px;
+    padding: 15px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 102px rgba(131, 120, 120, 0.5);
+    transition: 0.3s ease-in-out;
+    border-radius: 10px;
+    border: 1px solid rgba(66, 63, 63, 0.526);
+    border-top: 1px solid rgba(255, 255, 255, 0.526);
+    border-left: 1px solid rgba(255, 255, 255, 0.547);
+}
+.About-Card-container .About-card:hover{
+    height: 440px;
+}
+.About-Card-container .About-card .About-imgbx{
+    position: relative;
+    width: 260px;
+    height: 260px;
+    top: -100px;
+    left: 5px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+    border: 1px solid rgba(66, 63, 63, 0.526);
+    border-top: 1px solid rgba(255, 255, 255, 0.526);
+    border-left: 1px solid rgba(255, 255, 255, 0.547);
+    border-radius: 8px;
+}
+.About-Card-container .About-card .About-imgbx img{
+    max-width: 100%;
+    border-radius: 8px;
+    opacity: 0.9;
+}
+.About-Card-container .About-card .About-card-content{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: -140px;
+    padding: 15px 35px;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+.About-Card-container .About-card:hover .About-card-content{
+    visibility: visible;
+    opacity: 1;
+    margin-top: -100px;
+    transition-delay: 0.3s;
+}
+.About-card-content h3{
+    font-size: 2em;
+    color: #342136;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-shadow: 0 5px 20px rgba(58, 55, 55, 0.663);
+}
+.About-card-content p{
+    position: relative;
+    font-size: 16px;
+    color: #2a2c33;
+    font-weight: bold;
+    margin-bottom: 10px;
+}

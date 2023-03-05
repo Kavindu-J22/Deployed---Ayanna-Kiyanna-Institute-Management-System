@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Sinhala:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Sinhala:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* html{
+  scroll-behavior: smooth;
+} */
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Noto serif Sinhala',sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.App{
+  max-width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 0 0px;
+  box-shadow: 0 0 35px rgb(158, 153, 153);
+}
+
+a{
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+button{
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+/* ---------------- Header ------------ */
+@import url("./components/headers/header.css");
+
+/* ------------- Products -------------- */
+
+@import url("./components/mainpages/products/products.css");
+
+/* ---------------- Detail Product --------------- */
+@import url("./components/mainpages/detailProduct/detailProduct.css");
+
+/* ------------- Login/Register ----------------- */
+@import url("./components/mainpages/auth/login.css");
+
+/* ------------ Cart ------------------- */
+@import url("./components/mainpages/cart/cart.css");
+
+/* --------------- History ------------------- */
+@import url("./components/mainpages/history/history.css");
+
+/* ------------------ Categories ------------------ */
+@import url("./components/mainpages/categories/categories.css");
+
+/* ------------------- Create Product -------------- */
+@import url("./components/mainpages/createProduct/createProduct.css");
+
+/* ----------------- Responsive ------------------ */
+@media (max-width: 820px){
+  header .logo{
+    min-width: 115px;
+    flex: none;
+  }
+  header ul{
+   padding: 10px 0;
+  }
+}
+@media (max-width: 720px){
+  header ul{
+   position: fixed;
+   top:0;
+   left: -100%;
+   width: 100%;
+   height: 100vh;
+   background: rgb(82, 78, 78);
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   opacity: 0.98;
+   z-index: 99;
+   transition: 0.5s ease-in;
+  }
+  header .menu{
+    display: block;
+    cursor: pointer;
+  }
+  header ul li .menu{
+    position: absolute;
+    top:20px;
+    right: 20px;
+  }
+  header{
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 570px){
+  .filter_menu .row span{
+    display: none;
+  }
+}
+
+@media (max-width: 500px){
+  .App{
+    padding: 0 10px;
+  }
+  .detail{
+    font-size: 100%;
+    padding: 0;
+  }
+  .filter_menu input{
+    margin: 0;
+  }
+  .filter_menu .sort{
+    flex: 1;
+  }
+  .filter_menu .sort select{
+    width: 100%;
+    min-width: 290px;
+    margin: 5px 0;
+  }
+  .login-page{
+    padding: 30px 15px;
+  }
+  .delete-all{
+    margin: 20px 0;
+  }
+  .create_product .upload{
+    margin: 20px 0;
+  }
+}
+.newthinkMenu{
+  position: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  width: 40px;
+  height: 40px;
+  top: 50%;
+  left: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.145);
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background: rgba(41, 42, 43, 0.523);
+  border: 1px solid rgba(85, 81, 81, 0.436);
+  border-top: 1px solid rgba(255, 255, 255, 0.526);
+  border-left: 1px solid rgba(255, 255, 255, 0.547);
+  transition: .3s;
+  z-index: 1000;
+  animation: animation 2s ease-in-out infinite;
+}
+.newthinkMenu:hover{
+  transform: scale(1.1);
+}
+.newthinkMenu i{
+  color: rgba(255, 255, 255, 0.919);
+  opacity: 0.5;
+  font-size: 1.5em;
+  transition: .3s;
+  cursor: pointer;
+  text-shadow: 0 5px 15px rgba(0,0,0,0.5);
+  padding-top: 5px;
+}
+.newthinkMenu i:hover{
+  opacity: 1;
+}
+.AkstableLogo{
+  position: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  width: 65px;
+  height: 60px;
+  top: 25%;
+  left: 10px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  animation: animation 2s ease-in-out infinite;
+  background: rgba(72, 7, 50, 0.148);
+  box-shadow: 0 50px 20px rgba(31, 30, 30, 0.186);
+  border: 1px solid rgba(255,255,255,0.25);
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: .5s;
+  z-index: 3000;
+}
+.AkstableLogo:hover{
+  background: rgba(44, 4, 29, 0.441);
+  filter: brightness(1.1);
+}
+.AkstableLogo img{
+  position: relative;
+  display: flex;
+  width: 55px;
+  height: auto;
+  z-index: 2000;
+  transition: 0.6s;
+  opacity: 0.5;
+}
+.AkstableLogo img:hover{
+  opacity: 1;
+}
+.MyCloseBtn{
+  position: absolute;
+  right: 50px;
+  top: 40px;
+  color: aliceblue;
+  font-size: 1.7em;
+  cursor: pointer;
+  width: 45px;
+  height: 45px;
+  background: rgba(255, 255, 255, 0.045);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  z-index: 2000;
+}
+.MyCloseBtn a{
+  position: relative;
+  padding: 10px;
+  transition: .4s;
+  margin-top: 4px;
+  opacity: 0.9;
+}
+.MyCloseBtn a:hover{
+  transform: scale(1.1);
+  opacity: 1;
+}
+hr{
+  width: 650px;
+  border-top: 1px solid rgb(74, 74, 74);
+  border-bottom: 2px solid transparent;
+  border-left: 2px solid transparent;
+  border-right: 2px solid transparent;
+}
+.MainBackbtnmy{
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  width: 55px;
+  height: 40px;
+  top: 15px;
+  left: 10px;
+  box-shadow: 0 0 20px rgba(31, 30, 30, 0.186);
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background: rgba(70, 72, 75, 0.315);
+  background: rgba(132, 100, 122, 0.225);
+  border: 1px solid rgba(255,255,255,0.25);
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: .3s;
+  z-index: 3000;
+}
+.MainBackbtnmy img{
+  position: relative;
+  display: flex;
+  width: 40px;
+  height: auto;
+  z-index: 2000;
+  filter: brightness(0.95);
+  transition: 0.6s;
+  opacity: 0.8;
+  transform: rotate(-180deg)
+}
+.MainBackbtnmy:hover{
+  transform: scale(1.1);
+  filter: brightness(1.3);
+}
+
+/* goto top btn */
+
+.top-btn{
+  font-size: 25px;
+  width: 50px;
+  height: 50px;
+  color: rgb(222, 212, 212);
+  background: rgba(209, 132, 43, 0.279);
+  box-shadow: 0 0 20px rgba(145, 139, 139, 0.503);
+  border-radius: 50%;
+  position: fixed;
+  bottom: 5rem;
+  right: 5rem;
+  z-index: 5000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: 1px solid rgba(85, 81, 81, 0.436);
+  border-top: 1px solid rgba(255, 255, 255, 0.259);
+  border-left: 1px solid rgba(255, 255, 255, 0.219);
+}
+.top-btn i{
+  animation: gototopanimatation 1.2s linear infinite alternate-reverse;
+  text-shadow: 0 0 5px rgba(51, 51, 51, 0.788);
+}
+@keyframes gototopanimatation{
+  0%{
+    transform: translateY(-0.4rem);
+  }
+  100%{
+    transform: translateY(0.7rem);
+  }
+}
+
+@media screen and (max-width: 650px){
+  .newthinkMenu{
+    top: 30px;
+    left: 15px;
+    animation: none;
+  }
+  .MainBackbtnmy{
+    display: none;
+  }
+}

@@ -1,0 +1,43 @@
+.Lit-main-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #161623;
+    min-height: 100vh;
+}
+.Lit-main-box::before{
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgb(4, 85, 161),rgb(3, 110, 78));
+    clip-path: circle(23% at right 60%);
+}
+.Lit-main-box::after{
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgb(87, 9, 143),rgb(8, 169, 131));
+    clip-path: circle(8% at 30% 50%);  
+}
+.v-cards .v-text-card .v-content .v-link{
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px;
+    margin-top: 15px;
+    background: rgb(231, 224, 224);
+    color: #000;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: .4s;
+}
+.v-cards .v-text-card .v-content .v-link:hover{
+    opacity: 0.7;
+}

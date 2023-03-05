@@ -1,0 +1,104 @@
+#OEmain_box{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    background: #dbdce0;
+}
+.OETextcont h1{
+    color: #333;
+}
+.OETextcont h2{
+    color: #333;
+}
+
+.TPart-container .OE-Drop{
+    position: relative;
+    width: 320px;
+    height: 320px;
+    box-shadow: inset 20px 20px 20px rgba(0, 0, 0, 0.05),
+    25px 35px 20px rgba(0, 0, 0, 0.05),
+    25px 30px 30px rgba(0, 0, 0, 0.05), inset -20px -20px 25px rgba(255, 255, 255, 0.9);
+    transition: .5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.TPart-container .OE-Drop::before{
+    content: '';
+    position: absolute;
+    top: 50px;
+    left: 85px;
+    width: 35px;
+    height: 35px;
+    background: #fff;
+    border-radius: 50%;
+    opacity: 0.9;
+    animation: animationbacktowr 3s ease-in-out infinite;
+}
+.TPart-container .OE-Drop::after{
+    content: '';
+    position: absolute;
+    top: 90px;
+    left: 110px;
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    border-radius: 50%;
+    opacity: 0.9;
+    animation: animationbacktowr 3s ease-in-out infinite;
+}
+
+.TPart-container .OE-Drop h2{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background: #dbdeea;
+    border-radius: 50%;
+    box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.1),
+    inset -2px -5px 10px rgba(255, 255, 255, 1),
+    15px 15px 10px rgba(0, 0, 0, 0.05),
+    15px 10px 15px rgba(0, 0, 0, 0.025);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: rgb(255, 0, 89);
+}
+#OEh3{
+    position: relative;
+    font-size: 1.7em;
+    text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.422);
+    color: #333;
+}
+
+#OeEX1 h2{
+    color: rgb(240, 13, 70);
+}
+#OeEX1 a{
+    background: rgb(240, 13, 70);
+}
+#OeEX2 h2{
+    color: rgb(2, 199, 146);
+}
+#OeEX2 a{
+    background: rgb(2, 199, 146);
+}
+#OeEX3 h2{
+    color: rgb(24, 81, 226);
+}
+#OeEX3 a{
+    background: rgb(24, 81, 226);
+}
+#OeEX4 h2{
+    color: rgb(226, 118, 24);
+}
+#OeEX4 a{
+    background: rgb(226, 118, 24);
+}
+#OeEX5 h2{
+    color: rgb(226, 51, 24);
+}
+#OeEX5 a{
+    background: rgb(226, 51, 24);
+}

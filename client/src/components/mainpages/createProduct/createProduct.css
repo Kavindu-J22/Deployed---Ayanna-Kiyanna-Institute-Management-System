@@ -1,0 +1,130 @@
+.create_product{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.ForYouAddTotleBox{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    font-size: 2em;
+    font-weight: 600;
+}
+.AddFilesForOthr{
+    width: 100%;
+    height: 150px;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.AddFilesForOthr a{
+    text-decoration: none;
+    color: rgb(245, 237, 237);
+    text-shadow:  0 0 3px;
+    width: 500px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(221, 221, 221, 0.282);
+    font-size: 1.5em;
+    border-radius: 30px;
+    box-shadow: 10px 20px 50px rgba(0, 0, 0, 0.59);
+    border: 1px solid #333;
+    border-top: 1px solid rgba(221, 221, 221, 0.642);
+    border-left: 1px solid rgba(221, 221, 221, 0.642);
+    transition: .4s;
+}
+.AddFilesForOthr a:hover{
+    transform: scale(1.1);
+}
+.upload{
+    max-width: 450px;
+    height: 500px;
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 20px;
+    position: relative;
+}
+#file_up{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    outline: none;
+}
+#file_up::before{
+    content: "+";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    background: rgb(236, 229, 229);
+    color: rgb(115, 203, 159);
+    font-size: 17rem;
+    text-align: center;
+    cursor: pointer;
+    margin: auto;
+}
+#file_img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    background: white;
+}
+#file_img img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+#file_img span{
+    position: absolute;
+    top: -13px;
+    right: -13px;
+    background: rgb(202, 193, 193);
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    padding: 6px 10px;
+    cursor: pointer;
+    font-weight: 900;
+    color: rgb(136, 13, 38);
+}
+
+.create_product form{
+    max-width: 500px;
+    min-width: 290px;
+    width: 100%;
+    margin: 15px 30px;
+}
+.create_product form .row{
+    width: 100%;
+    margin: 15px 0;
+}
+.create_product form input, textarea{
+    width: 100%;
+    min-height: 40px;
+    padding: 0 5px;
+}
+.create_product form button{
+    width: 200px;
+    height: 40px;
+    background: rgb(4, 66, 44);
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+.create_product form button:hover{
+    transform: scale(1.1);
+}

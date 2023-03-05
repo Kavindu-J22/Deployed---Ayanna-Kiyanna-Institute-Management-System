@@ -1,0 +1,79 @@
+.myheadtopabs{
+    position: fixed;
+    width: 95%;
+    min-height: 65px;
+    z-index: 5000;
+    transition: 0.7s;
+    top: 5px;
+    left: 35px;
+    border-radius: 10px;
+    transition-timing-function: ease-in;
+    transition: 0.5s;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.myheadtopabs_styles{
+    top: 5px;
+    left: 35px;
+    margin-right: 35px;
+    background-color: rgba(5, 0, 31, 0.673);
+    width: 95%;
+    min-height: 65px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 10px;
+    box-shadow: 0 0px 3px;
+    transition-timing-function: ease-in;
+}
+.myheadtopabs:hover{
+    background-color: rgba(5, 0, 25, 0.808);
+}
+.myheadtopabs .logo{
+    padding: 10px;
+    flex: 1;
+    font-size: 15px;
+    opacity: 0.5;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.myheadtopabs .logo:hover{
+    opacity: 1;
+}
+.myheadtopabs a{
+    text-transform: uppercase;
+    color: #fff;
+}
+.myheadtopabs ul{
+    margin-left: 25px;
+    margin-right: 15px;
+}
+.myheadtopabs ul li{
+    display: inline-block;
+    opacity: 0.4;
+    padding: 8px 15px;
+    margin: 1px;
+    font-size: 15px;
+    transition: .4s;
+    cursor: pointer;
+    text-shadow: 0 0 5px #333;
+    border-radius: 10px;
+}
+.myheadtopabs ul li:hover{
+    opacity: 1;
+}
+.active{
+    background: rgba(255, 255, 255, 0.166);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.467);
+  } 
+  @media screen and (max-width: 480px){
+    .myheadtopabs{
+       display: none;
+    }
+}
+  

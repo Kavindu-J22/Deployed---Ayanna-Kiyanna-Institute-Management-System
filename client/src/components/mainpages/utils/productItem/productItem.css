@@ -1,0 +1,207 @@
+.product_card{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px 0;
+}
+.N-productBox{
+    position: relative;
+    width: 320px;
+    height: 560px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 30px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.N-productBox::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50px;
+    width: 50%;
+    height: 100%;
+    background: #fff;
+    border-radius: 8px;
+    transform: skewX(15deg);
+    transition: 0.5s;
+}
+.N-productBox::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50px;
+    width: 50%;
+    height: 100%;
+    background: #fff;
+    border-radius: 8px;
+    transform: skewX(15deg);
+    transition: 0.5s;
+    filter: blur(30px);
+    transition: 0.5s;
+}
+.N-productBox:hover::before,
+.N-productBox:hover::after{
+    transform: skewX(0deg);
+    left: 20px;
+    width: calc(100% - 90px);
+}
+.N-productBox:nth-child(1)::before,
+.N-productBox:nth-child(1)::after{
+    background: linear-gradient(315deg,#058f73,#c30849);
+}
+
+.N-product-Content{
+    position: relative;
+    left: 0;
+    padding: 20px 40px;
+    background: rgba(255,255,255,0.05);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+    z-index: 1;
+    transition: 0.5s;
+    color: #fff;
+}
+.N-productBox:hover .N-product-Content{
+    left: -25px;
+    padding: 60px 40px;
+}
+
+.product_card img{
+    width: 80%;
+    height: 250px;
+    display: block;
+    object-fit: cover;
+    border-radius: 20px;
+    opacity: 0.8;
+}
+.N-productBox span{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 50;
+    pointer-events: none;
+}
+.N-productBox span::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    opacity: 0;
+    transition: 0.5s;
+    animation: animation 2s ease-in-out infinite;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    
+}
+.N-productBox:hover span::before{
+    top: -50px;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+    opacity: 1;
+}
+
+.N-productBox span::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    opacity: 0;
+    transition: 0.5s;
+    animation: animation 2s ease-in-out infinite;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    animation-delay: -1s;
+    
+}
+.N-productBox:hover span::after{
+    bottom: -50px;
+    right: 50px;
+    width: 100px;
+    height: 100px;
+    opacity: 1;
+}
+
+@keyframes animation
+{
+    0%,100%
+    {
+        transform: translateY(10px);
+    }
+    50%
+    {
+        transform: translateY(-10px);
+    }
+}
+
+.product_box h2{
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-transform: capitalize;
+    font-size: 2em;
+    color: rgb(251, 247, 247);
+    text-shadow: 0 0 15px rgb(56, 54, 54);
+    margin-bottom: 10px;
+}
+.product_box h3{
+    color: rgb(244, 199, 199);
+}
+.product_box p{
+    font-size: 1em;
+    margin-bottom: 10px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    height: 40px;
+    overflow: hidden;
+}
+
+.product_card input{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: 0;
+    margin: 15px;
+    cursor: pointer;
+}
+.row_btn{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.row_btn a{
+    display: inline-block;
+    font-size: 1.1em;
+    color: #111;
+    background: rgb(236, 233, 233);
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: 0.4s;
+}
+.row_btn a:hover{
+    transform: scale(1.1);
+}
+#btn_buy{
+    background: #da7b9c;
+}

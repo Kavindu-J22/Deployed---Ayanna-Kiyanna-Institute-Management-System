@@ -1,0 +1,210 @@
+.main-product-box{
+    background-color: rgb(217, 223, 229);
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.product-text-card{
+    align-items: center;
+    margin: 10px;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.product-text-card h1{
+    font-size: 2.5em;
+    color: #17040e;
+    text-shadow: 0 0 20px #f17dd674;
+    font-weight: 800;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,rgba(0, 0, 0, 0.149));
+    line-height: 0.55em;
+    margin: 20px;
+    padding-top: 20px;
+}
+.product-text-card h4{
+    font-size: 1.1em;
+    font-style: italic;
+    color: rgb(67, 66, 66);
+    padding-top: 10px;
+}
+.products{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
+    justify-items: center;
+    margin: 20px 0;
+    height: auto;
+    min-height: 20vh;
+    background: #0e0e20;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(67, 64, 64);
+}
+
+/* ----------- for-you Item ----------------- */
+@import url("../utils/productItem/productItem.css");
+
+.delete-all{
+    text-align: right;
+    margin: 20px;
+}
+.delete-all input{
+    height: 25px;
+    width: 25px;
+    transform: translateY(5px);
+    margin: 0 15px;
+}
+.delete-all span{
+    text-transform: uppercase;
+    color: rgb(3, 165, 206);
+    letter-spacing: 1.3px;
+}
+.delete-all button{
+    border: 1px solid crimson;
+    padding: 10px 25px;
+    color: crimson;
+    text-transform: uppercase;
+}
+
+/* ------------ Filters Menu ----------------- */
+.filter_menu{
+    width: 100%;
+    min-height: 40px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 15px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.filter_menu select, input,option{
+    background: #12125a40;
+    outline: none;
+    height: 50px;
+    padding: 0 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    color: rgb(22, 3, 3);
+    border: 1px solid rgba(66, 63, 63, 0.248);
+    border-top: 1px solid rgba(255, 255, 255, 0.526);
+    border-left: 1px solid rgba(255, 255, 255, 0.547);
+}
+.filter_menu input{
+    flex: 1;
+    margin: 0 10px;
+    border-radius: 20px;
+    padding-left: 15px;
+}
+.filter_menu span{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+/* -------------------- Load More --------------- */
+
+.load_more-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.load_more-btn a{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #240716;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    overflow: hidden;
+    transition: 0.2s;
+    box-shadow: 0 40px 20px rgba(0,0,0,0.25);
+    border-radius: 4px;
+    border: 1px solid #5252535d;
+    cursor: pointer;
+    animation: animation 2s ease-in-out infinite;
+    background: #0e0e2043;
+}
+.load_more-btn a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.13);
+    transform: skew(25deg);
+}
+.load_more-btn a:hover{
+    color: #78fac3;
+    background: #ec17ba;
+    box-shadow: 0 0 10px #ec17ba,0 0 80px #ec17ba;
+    transition-delay: .5s;
+} 
+.load_more-btn a span{
+    position: absolute;
+    display: block;
+}
+.load_more-btn a span:nth-child(1){
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#ec17ba);
+}
+.load_more-btn a:hover span:nth-child(1){
+    left: 100%;
+    transition: .5s;
+
+}
+.load_more-btn a span:nth-child(3){
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#ec17ba);
+}
+.load_more-btn a:hover span:nth-child(3){
+    right: 100%;
+    transition: .5s;
+    transition-delay: 0.25s;
+}
+.load_more-btn a span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#ec17ba);
+}
+.load_more-btn a:hover span:nth-child(2){
+    top: 100%;
+    transition: .5s;
+    transition-delay: 0.125s;
+}
+.load_more-btn a span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#ec17ba);
+}
+.load_more-btn a:hover span:nth-child(4){
+    bottom: 100%;
+    transition: .5s;
+    transition-delay: 0.375s;
+}
+@media screen and (max-width: 520px){
+    .product-text-card h1{
+        font-size: 30px;
+        line-height: 28px;
+    }
+}

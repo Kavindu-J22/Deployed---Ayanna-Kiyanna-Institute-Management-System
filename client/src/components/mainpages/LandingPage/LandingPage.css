@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Noto+Sans+Sinhala:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+    height: auto;
+    
+}
+.fullmain{
+    background: #161922;
+}
+
+.home{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-size: cover;
+    background-position: center;
+    padding-top: 5px;
+}
+
+.back-video{
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    object-Fit: cover;
+    transform: translate(-50%, -50%);
+    z-Index: 0;
+}
+@media screen {
+    .back-video{
+        width: 100%;
+        height: 100%;
+    }
+  
+}
+
+.content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+}
+
+.logo2{
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    height: auto;
+    opacity: .95;
+}
+
+.video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+}
+
+.signup{
+    background-color: #ce1751;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 7px 10px;
+    border-radius: 35px;
+    transition: transform .4s;
+}
+
+.header .content .logo1{
+    position: relative;
+    align-items: center;
+    width: 450px;
+    height: auto;
+    opacity: 0.6;
+    cursor: pointer;
+    padding-bottom: 10px;
+    margin-top: 100px;
+    animation: animation 2s ease-in-out infinite;
+}
+.content h2{
+    font-size: 1.1em;
+    padding-top: 40px;
+    color: rgb(41, 26, 39);
+    font-family: 'Noto Sans Sinhala',sans-serif;
+    font-weight: 800;
+    transition: .7s;
+}
+.content h2:hover{
+    transform: scale(1.1);
+}
+.content p{
+    width: 80%;
+    color: #120105;
+    font-family: 'Noto Sans Sinhala',sans-serif;
+    text-shadow: 0px 0px 5px rgba(200, 195, 195, 0.573),0px 0px 15px #5e53535a;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 600;
+    transition: 0.7s;
+    cursor: pointer;
+    padding-top: 5px;
+}
+.content p:hover{
+    transform: scale(1.1);
+}
+
+hr.Myhr{
+    overflow: visible;
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+hr.Myhr:after {
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
+.landing1stBtns{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: animation 4s ease-in-out infinite;
+}
+.landing1stBtns a{
+    position: relative;
+    width: 150px;
+    height: 45px;
+    display: inline-block;
+    background: #fff;
+    margin: 20px;
+    box-shadow: 0 40px 20px rgba(0,0,0,0.25);
+    border-radius: 6px;
+}
+.landing1stBtns a#LGbtnA{
+    width: 220px;
+}
+.landing1stBtns a::before,
+.landing1stBtns a::after{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: #ce1751;
+    transition: 0.5s;
+}
+.landing1stBtns a:nth-child(1)::before,
+.landing1stBtns a:nth-child(1)::after{
+    background: linear-gradient(45deg,#ff075b,#0e1538,#0e1538,#01ff9d);
+    border: 1px solid rgba(66, 63, 63, 0.526);
+    border-top: 1px solid rgba(255, 255, 255, 0.526);
+    border-left: 1px solid rgba(255, 255, 255, 0.547);
+    border-radius: 6px;
+}
+.landing1stBtns a:nth-child(2)::before,
+.landing1stBtns a:nth-child(2)::after{
+    background: linear-gradient(45deg,#ff075b,#0e1538,#0e1538,#01ff9d);
+    border: 1px solid rgba(66, 63, 63, 0.526);
+    border-top: 1px solid rgba(255, 255, 255, 0.526);
+    border-left: 1px solid rgba(255, 255, 255, 0.547);
+    border-radius: 6px;
+}
+
+.landing1stBtns a:hover:before{
+    inset: -3px;
+}
+.landing1stBtns a:hover::after{
+    inset: -3px;
+    filter: blur(10px);
+}
+.landing1stBtns a span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background: #10152cec;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .9em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+    border: 1px solid #040a29;
+    overflow: hidden;
+    border-radius: 6px;
+}
+.landing1stBtns a span::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.088);
+    transform: skew(25deg);
+    border: 1px solid rgba(66, 63, 63, 0.526);
+    border-left: 1px solid rgba(255, 255, 255, 0.547);
+}
+.fristaflandsosialicon{
+    position: absolute;
+    display: flex;
+    z-index: 1000;
+    right: 50px;
+    bottom: 10px;
+}
+.fristaflandsosialicon li{
+    list-style: none;
+    font-size: 1.5em;
+    margin: 12px;
+    transition: .4s;
+}
+.fristaflandsosialicon li a{
+    color: rgba(4, 2, 28, 0.737);
+    text-shadow: 0 0 10px rgb(232, 226, 226);
+}
+.fristaflandsosialicon li:hover{
+    transform: translateY(-10px);
+    filter: brightness(2);
+}
+
+
+.godownbtn{
+    position: absolute;
+    display: flex;
+     flex-wrap: wrap;
+    bottom: 25px;
+    left: 20px;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    background: rgba(128, 77, 19, 0.56);
+    box-shadow: 0 0 20px rgba(145, 139, 139, 0.503);
+    border-radius: 50%;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgba(85, 81, 81, 0.436);
+    border-top: 1px solid rgba(255, 255, 255, 0.259);
+    border-left: 1px solid rgba(255, 255, 255, 0.219);
+    cursor: pointer;
+    transition: .4s;
+  }
+  .godownbtn:hover{
+    transform: scale(1.1);
+  }
+  .godownbtn i{
+    animation: gototopanimatation 1s linear infinite alternate-reverse;
+    text-shadow: 0 0 5px rgba(51, 51, 51, 0.788);
+    color: rgb(206, 198, 198);
+  }
+
+@media screen and (max-width: 520px){
+    .header .content .logo1{
+       width: 300px;
+    }
+    .logo2{
+        width: 330px;
+    }
+    .content p{
+        font-size: 12px;
+    }
+    .landing1stBtns{
+        margin-top: 15px;
+    }
+    .landing1stBtns a, #LGbtnA{
+       width: 150px;
+       margin: 10px;
+       font-size: 15px;
+       height: 40px;
+    }
+    .fristaflandsosialicon{
+        flex-direction: column;
+        right: 0;
+        align-items: center;
+    }
+    .fristaflandsosialicon i{
+        font-size: 15px;
+    }
+}

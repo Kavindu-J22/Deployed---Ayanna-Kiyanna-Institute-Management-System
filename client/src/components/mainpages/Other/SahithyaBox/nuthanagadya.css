@@ -1,0 +1,140 @@
+.ThrPart-main-box{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    background: #0e1225;
+}
+#TP-Text-Container h1{
+    color: rgb(232, 221, 221);
+}
+#TP-Text-Container h4{
+    color: rgb(189, 183, 183);
+}
+.TPart-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 0;
+    gap: 40px 60px;
+}
+.TPart-container .TP-Drop{
+    position: relative;
+    width: 350px;
+    height: 350px;
+    box-shadow: inset 20px 20px 20px rgba(255, 255, 255, 0.066),
+    25px 35px 20px rgba(0, 0, 0, 0.236),
+    25px 30px 30px rgba(0, 0, 0, 0.05), inset -20px -20px 25px rgba(255, 255, 255, 0.262);
+    transition: .5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.036);
+    filter: blur(.5px);
+}
+.TPart-container .TP-Drop:nth-child(2){
+    border-radius: 27% 73% 70% 30% / 41% 48% 52% 59% ;
+}
+.TPart-container .TP-Drop:nth-child(3){
+    border-radius: 43% 57% 38% 62% / 26% 38% 62% 74% ;
+}
+.TPart-container .TP-Drop:nth-child(4){
+    border-radius: 52% 48% 43% 57% / 25% 62% 38% 75% ;
+}
+.TPart-container .TP-Drop:nth-child(5){
+    border-radius: 55% 45% 54% 46% / 73% 24% 76% 27% ;
+}
+.TPart-container .TP-Drop:nth-child(6){
+    border-radius: 23% 77% 54% 46% / 34% 47% 53% 66% ;
+}
+.TPart-container .TP-Drop:hover{
+    border-radius: 50%;
+}
+.TPart-container .TP-Drop::before{
+    content: '';
+    position: absolute;
+    top: 50px;
+    left: 85px;
+    width: 35px;
+    height: 35px;
+    background: rgba(255, 255, 255, 0.247);
+    border-radius: 50%;
+    opacity: 0.9;
+    animation: animationbacktowr 3s ease-in-out infinite;
+}
+.TPart-container .TP-Drop::after{
+    content: '';
+    position: absolute;
+    top: 90px;
+    left: 110px;
+    width: 15px;
+    height: 15px;
+    background: rgba(255, 255, 255, 0.247);
+    border-radius: 50%;
+    opacity: 0.9;
+    animation: animationbacktowr 3s ease-in-out infinite;
+}
+.TPart-container .TP-Drop .TP-Drop_content{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px;
+    gap: 15px;
+    animation: animationbacktowr 3s ease-in-out infinite;
+}
+.TPart-container .TP-Drop .TP-Drop_content h2{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background: #dbdeea;
+    border-radius: 50%;
+    box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.1),
+    inset -2px -5px 10px rgba(255, 255, 255, 0.497),
+    15px 15px 10px rgba(0, 0, 0, 0.05),
+    15px 10px 15px rgba(0, 0, 0, 0.025);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: rgb(255, 0, 89);
+    background: rgba(255, 255, 255, 0.036);
+}
+.TPart-container .TP-Drop .TP-Drop_content h3{
+    position: relative;
+    font-size: 1.7em;
+    font-family: 'Noto serif Sinhala',sans-serif;
+    text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.422);
+    color: #fff;
+}
+.TPart-container .TP-Drop .TP-Drop_content a{
+    position: relative;
+    padding: 10px 25px;
+    background: rgb(255, 0, 89);
+    text-decoration: none;
+    color: #fff;
+    border-radius: 25px;
+    font-weight: 500;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+    opacity: 0.75;
+    transition: .5s;
+    box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.262);
+}
+.TPart-container .TP-Drop .TP-Drop_content a:hover{
+    opacity: 1;
+}
+.TPart-container .TP-Drop .TP-Drop_content a::before{
+   content: '';
+   position: absolute;
+   bottom: 5px;
+   left: 50%;
+   transform: translateX(-50%);
+   width: 20%;
+   height: 3px;
+   border-radius: 5px;
+   background: rgba(255, 255, 255, 0.5); 
+}

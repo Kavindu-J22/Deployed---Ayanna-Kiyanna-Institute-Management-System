@@ -1,0 +1,1451 @@
+.NuthanahodiyaMain{
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    min-height: 100vh;
+    background: #161623;
+    font-family: 'Noto serif Sinhala',sans-serif;
+}
+.NuthanahodiyaMain-MAinTitelbox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 130px;
+    font-size: 1.7em;
+}
+.NuthanahodiyaMain-MAinTitelbox h1{
+    color: #fff;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.618);
+    -webkit-box-reflect: below 1px linear-gradient(transparent,rgba(0, 0, 0, 0.125));
+    font-family: 'Noto serif Sinhala',sans-serif;
+}
+.NuthanahodiyaMain-MAinTitelbox h2{
+    color: rgb(199, 202, 215);
+    margin-top: 20px;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    text-shadow: 0 0 10px rgba(199, 202, 215, 0.603);
+}
+.mainhodibox{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: #161623;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px;
+}
+.sinhalaAkurumainbox{
+    position: relative;
+    min-width: 65%;
+    width: auto;
+    min-height: 50vh;
+    background: rgba(250, 235, 215, 0.508);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 5px;
+    border: 1px solid rgba(66, 63, 63, 0.526);
+    border-top: 1px solid rgba(255, 255, 255, 0.526);
+    border-left: 1px solid rgba(255, 255, 255, 0.547);
+}
+.sinhalaAkuruDiscbox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 25%;
+    background: rgba(250, 235, 215, 0.323);
+    margin: 5px;
+    border-radius: 10px;
+    border: 1px solid rgba(66, 63, 63, 0.526);
+    border-top: 1px solid rgba(255, 255, 255, 0.526);
+    border-left: 1px solid rgba(255, 255, 255, 0.547);
+    padding: 30px 20px;
+    overflow: hidden;
+}
+.sinhalaAkuruDiscbox::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -45%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.04);
+}
+.swarabtnsboxnn{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background: rgba(250, 235, 215, 0.323);
+    border-radius: 10px;
+    border: 1px solid #333;
+    border-top: 1px solid rgb(185, 178, 178);
+    border-left: 1px solid rgb(185, 178, 178);
+    backdrop-filter: blur(5px);
+    overflow: hidden;
+    transition: .5s;
+    padding: 40px 0px;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.334);
+}
+.swarabtnsboxnn:hover{
+    transform: translateY(-10px);
+}
+.swarabtnsboxnn::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -45%;
+    transform: skew(-15deg);
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.075);
+}
+.viyanjanabtnsboxnn{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background: rgba(250, 235, 215, 0.323);
+    border-radius: 10px;
+    border: 1px solid #333;
+    border-top: 1px solid rgb(185, 178, 178);
+    border-left: 1px solid rgb(185, 178, 178);
+    backdrop-filter: blur(5px);
+    overflow: hidden;
+    transition: .5s;
+    padding: 20px 0px;
+    margin: 30px 0px;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.334);
+}
+.viyanjanabtnsboxnn:hover{
+    transform: translateY(-10px);
+}
+.viyanjanabtnsboxnn::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -45%;
+    transform: skew(-15deg);
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.075);
+}
+.MainSwaraya{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.emtySpaceSwarabox{
+    width: 85px;
+}
+.swaraAkuruMain{
+    position: relative;
+    width: auto;
+    min-height: 30vh;
+    margin: 5px;
+    background: rgba(154, 137, 228, 0.688);
+    padding: 20px 20px; 
+    border-radius: 10px;
+    border: 1px solid rgba(66, 63, 63, 0.526);
+    border-top: 1px solid rgba(255, 255, 255, 0.526);
+    border-left: 30px solid rgba(8, 1, 24, 0.773);
+    overflow: hidden; 
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.267);
+    padding-left: 45px;
+    margin-top: 10px;
+}
+.swaraAkuruMain::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -37%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.177);
+    transform: skewX(-15deg);
+    pointer-events: none;
+}
+.viyanAkuruMain{
+    position: relative;
+    width: auto;
+    min-height: 50vh;
+    margin: 5px;
+    background: rgba(177, 134, 78, 0.697);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(66, 63, 63, 0.526);
+    border-top: 1px solid rgba(255, 255, 255, 0.526);
+    border-left: 1px solid rgba(255, 255, 255, 0.547);
+    overflow: hidden;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.267);
+}
+.viyanAkuruMain::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -60%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.177);
+    transform: skewX(-15deg);
+    pointer-events: none;
+}
+.AkuruColoms{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.akuruAK{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: rgba(250, 235, 215, 0.755);
+    margin: 5px;
+    border-radius: 5px;
+    font-family: 'Noto serif Sinhala',sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    padding-bottom: 15px;
+    overflow: hidden;
+    border: 1px solid rgba(54, 52, 52, 0.732);
+    border-top: 1px solid rgba(255, 255, 255, 0.526);
+    border-left: 1px solid rgba(255, 255, 255, 0.547);
+    box-shadow: 10px 10px 15px rgba(36, 33, 33, 0.627);
+    transition: .4s;
+    cursor: pointer;
+}
+.akuruAK:hover{
+    transform: scale(1.1);
+    filter: brightness(1.4);
+    opacity: 1;
+}
+.akuruAK::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -60%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.4);
+    transform: skewX(-15deg);
+    pointer-events: none;
+}
+.akurucontent{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Noto serif Sinhala',sans-serif;
+}
+.akuruAK h5{
+    font-size: 3.3em;
+    display: flex;
+    font-family: 'Noto serif Sinhala',sans-serif;
+    font-weight: 800;
+    padding-top: 10px;
+}
+.akuruAK p{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 1em;
+    color: rgb(197, 200, 203);
+}
+#swaraAkurahodi{
+    background: rgba(1, 9, 43, 0.862);
+}
+#swaraAkurahodi::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -60%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.11);
+    transform: skewX(-15deg);
+    pointer-events: none;
+}
+.viyaakuruDividaPink{
+    display: flex;
+}
+.AkuruColomsSanjaka{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+.pinkbox{
+    position: relative;
+    background: rgba(200, 7, 120, 0.704);
+    display: flex;
+    border-radius: 5px;
+    border: 1px solid rgba(66, 63, 63, 0.526);
+    border-top: 1px solid rgba(255, 255, 255, 0.526);
+    border-left: 1px solid rgba(255, 255, 255, 0.547);
+}
+.Varganthaksara{
+    width: 35px;
+    height: 100%;
+    background-color: rgba(225, 32, 145, 0.66);
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.Varganthaksara h2{
+    font-family: 'Noto sans Sinhala',sans-serif;
+    font-size: 1.3em;
+    font-weight: 700;
+    transform: rotate(-92deg);
+    color: rgb(236, 225, 236);
+    padding-top: 3px;
+    text-shadow: 0 0 10px rgba(43, 41, 41, 0.923);
+    cursor: pointer;
+    transition: .4s;
+}
+.Varganthaksara h2:hover{
+    color: #fff;
+    filter: brightness(1.4);
+}
+.vargaLableBox{
+    width: 50px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 4px solid #333;
+    margin: 10px;
+}
+#vargaLableBoxviya{
+    height: 800px;
+}
+.vargaLableBox h2{
+    font-family: 'Noto serif Sinhala',sans-serif;
+    font-size: 1.3em;
+    font-weight: 700;
+    transform: rotate(-92deg);
+    color: #000;
+    transition: .4s;
+    cursor: pointer;
+}
+.vargaLableBox h2:hover{
+    font-size: 1.4em;
+    text-shadow: 0 0 15px rgb(116, 109, 109);
+}
+.viyanAkuruMainContainer{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Varganthaksaradevidebox{
+    display: flex;
+    flex-direction: column;
+    background: rgba(177, 134, 78, 0.697);
+    border-radius: 5px;
+}
+.Varganthaksaradevidebox #akvrdv:hover{
+    transform: translateY(-5px);
+}
+#akvrdv{
+    width: auto;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    font-size: .7em;
+    color: rgb(3, 5, 49);
+    letter-spacing: 1px;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.674);
+    border: none;
+}
+#akvrdv h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    background: #9d9db773;
+    border-radius: 10px;
+    border: 1px solid rgba(66, 63, 63, 0.526);
+    border-top: 1px solid rgba(255, 255, 255, 0.526);
+    border-left: 1px solid rgba(255, 255, 255, 0.547);
+    box-shadow: 10px 10px 30px rgba(71, 67, 67, 0.481);
+    animation: animationwargadvidtitle 2s ease-out infinite;
+    font-family: 'Noto serif Sinhala',sans-serif;
+    font-weight: bold;
+}
+@keyframes animationwargadvidtitle{
+    0%{
+        transform: translate(-4px);
+    }
+    50%{
+        transform: translate(4px);
+    }
+    100%{
+        transform: translate(-4px);
+    }
+}
+#akvrdv::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.168);
+    transform: skewX(-15deg);
+    pointer-events: none;
+}
+.swaraAkuruMaincontainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#anahbox{
+    margin-left: 145px;
+    margin-bottom: 5px;
+}
+#yataAkuruSet{
+    margin-top: 5px;
+}
+#Dvijaksharabox{
+    border-radius: 50%;
+    margin-right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    background: rgba(131, 143, 236, 0.227);
+    width: 95px;
+    height: 95px;
+    animation: animationbacktowr 3s ease-in-out infinite;
+}
+#Dvijaksharabox h5{
+    font-size: 1em;
+    color: rgb(11, 5, 59);
+    font-weight: 600;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.656);
+}
+#finalYataLetters{
+    margin-left: 145px;
+}
+.pinkbox #vrvr{
+    background: #ecdc2de5;
+}
+.pinkbox #vrvr::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -60%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.36);
+    transform: skewX(-15deg);
+    pointer-events: none;
+}
+#anahboxAkuru{
+    background: rgba(208, 197, 197, 0.19);
+    border: 3px solid rgba(27, 26, 26, 0.663);
+    border-top: 2px solid rgba(235, 228, 228, 0.733);
+    border-left: 2px solid rgba(255, 255, 255, 0.547);
+}
+#anahboxAkuru p{
+    color: #333;
+}
+#anahboxAkuru::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -60%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.27);
+    transform: skewX(-15deg);
+    pointer-events: none;
+}
+#SanjakaAkuru p{
+    color: #333;
+}
+#SanjakaAkuru{
+    border: 3px solid rgb(119, 6, 83);
+    border-top: 2px solid rgba(245, 206, 243, 0.84);
+    border-left: 2px solid rgba(245, 206, 243, 0.84);
+    background: rgba(208, 197, 197, 0.297);
+}
+#SanjakaAkuru::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -60%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.222);
+    transform: skewX(-15deg);
+    pointer-events: none;
+}
+#SanjakaAkuru h5{
+    color: rgb(6, 77, 20);
+    text-shadow: 0 0 5px rgba(2, 81, 18, 0.334);
+}
+#yatamaAkuru{
+    border: 3px solid rgba(27, 26, 26, 0.663);
+    border-top: 2px solid rgba(235, 228, 228, 0.733);
+    border-left: 2px solid rgba(255, 255, 255, 0.547);
+    background: rgba(208, 197, 197, 0.297);
+}
+#yatamaAkuru::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -60%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.27);
+    transform: skewX(-15deg);
+    pointer-events: none;
+}
+#yatamaAkuru p{
+    color: rgb(84, 32, 32);
+}
+#yatamaAkuru h5{
+    color: rgb(84, 32, 32);
+}
+
+/* letteres color */
+#hreasSwara{
+    color: rgb(239, 6, 107);
+}
+#deergaSware{
+    color: antiquewhite;
+}
+#anLetter{
+    color: rgb(13, 100, 172);
+}
+#ahLetter{
+    color: rgb(84, 32, 32);
+}
+#alpaprana p{
+    color: #333;
+}
+#alpaprana h5{
+    color: rgb(29, 25, 42);
+    text-shadow: 0 0 5px rgba(51, 51, 51, 0.463);
+}
+#mahaprana p{
+    color: rgb(111, 4, 119);
+}
+#mahaprana h5{
+    color: rgb(103, 15, 109);
+    text-shadow: 0 0 5px rgba(111, 4, 119, 0.323);
+}
+#anunasiLetters p{
+    color: rgb(13, 100, 172);
+}
+#anunasiLetters h5{
+    color: rgb(13, 89, 152);
+    text-shadow: 0 0 5px rgba(13, 101, 172, 0.284);
+}
+#anthahLetters p{
+    color: #333;
+}
+#anthahLetters h5{
+    color: #d96d08;
+}
+.agoshamark::before{
+    content: 'අඝෝෂ';
+    font-size: 12px;
+    color: aliceblue;
+    width: 80px;
+    height: 50px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    background: #161623e1;
+    bottom: -40px;
+    left: -38px;
+    transform: rotate(45deg);
+}
+/* ------- Letter Discriptions hovers------ */
+
+.akuruwistharamain{
+    background: #000210aa;
+    backdrop-filter: blur(4px);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+.AakuruwistharamainboxContent{
+    position: relative;
+    min-width: 40vh;
+    min-height: 50vh;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.152);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(51, 51, 51, 0.633);
+    border-top: 1px solid rgba(255,255,255,0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(2px);
+    cursor: pointer;
+    padding: 20px;
+    animation: animation 3s ease-in-out infinite;
+    font-family: 'Noto serif Sinhala',sans-serif;
+}
+.AakuruwistharamainboxContent::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -60%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.068);
+    transform: skewX(-15deg);
+    pointer-events: none;
+}
+.AakuruwistharamainboxContent h1{
+    position: relative;
+    font-size: 9em;
+    color: #fff;
+    margin-bottom: 30px;
+    font-family: 'Noto serif Sinhala',sans-serif;
+}
+.AakuruwistharamainboxContent p{
+    position: relative;
+    text-align: center;
+    max-width: 500px;
+    font-size: .9em;
+    font-weight: 500;
+    color: #fff;
+    margin: 20px;
+    letter-spacing: 1px;
+    font-family: 'Noto serif Sinhala',sans-serif;
+}
+.AakuruwistharamainboxContent ul{
+    position: relative;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    font-size: .9em;
+    color: rgb(244, 232, 232);
+    margin: 20px;
+    font-weight: 500;
+    max-width: 500px;
+    padding-left: 70px;
+}
+.AakuruwistharamainboxContent ul li{
+    margin: 5px;
+    font-family: 'Noto serif Sinhala',sans-serif;
+    list-style: disc;
+}
+.AakuruwistharamainboxContent #titleP{
+    color: rgb(255, 255, 255);
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.AakuruwistharamainboxContent #EngP{
+    color: rgb(241, 231, 231);
+    font-weight: 300;
+}
+.contentHraswa{
+    background: rgba(239, 6, 107, 0.218);
+    text-shadow: 0 0 5px #333;
+}
+.contentDeerga{
+    background: rgba(236, 209, 173, 0.24);
+    text-shadow: 0 0 15px rgba(29, 27, 27, 0.923);
+}
+.contentAlpaa{
+    background: rgba(239, 210, 66, 0.26);
+    text-shadow: 0 0 15px rgba(29, 27, 27, 0.923); 
+}
+.contentmarapraa{
+    background: rgba(133, 37, 160, 0.3);
+    text-shadow: 0 0 15px rgba(29, 27, 27, 0.923); 
+}
+.VarAnuContentt{
+    background: rgba(28, 82, 184, 0.3);
+    text-shadow: 0 0 15px rgba(29, 27, 27, 0.923);
+}
+.contentSanjakaa{
+    background: rgba(12, 165, 68, 0.3);
+    text-shadow: 0 0 15px rgba(29, 27, 27, 0.923); 
+}
+.contentAnthahh{
+    background: rgba(227, 117, 39, 0.3);
+    text-shadow: 0 0 15px rgba(29, 27, 27, 0.923); 
+}
+.contentUshh{
+    background: rgba(66, 3, 3, 0.3);
+    text-shadow: 0 0 15px rgba(29, 27, 27, 0.923);
+}
+.notincludeContent{
+    background: rgba(238, 46, 46, 0.303);
+    text-shadow: 0 0 15px rgba(29, 27, 27, 0.923);
+}
+.notincludeContent p{
+    font-size: 1.5em;
+}
+.MyOkBtn{
+    position: absolute;
+    bottom: 50px;
+    color: aliceblue;
+    font-size: 1.2em;
+    cursor: pointer;
+    width: 60px;
+    height: 45px;
+    background: rgba(255, 255, 255, 0.096);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    z-index: 2000;
+    letter-spacing: 1px;
+    border: 1px solid rgba(51, 51, 51, 0.633);
+    border-top: 1px solid rgba(255, 255, 255, 0.251);
+    border-left: 1px solid rgba(255, 255, 255, 0.251);
+}
+.MyOkBtn a{
+    position: relative;
+    padding: 10px;
+    transition: .4s;
+    margin-top: 4px;
+    opacity: 0.9;
+  }
+  .MyOkBtn a:hover{
+    transform: scale(1.1);
+    opacity: 1;
+  }
+
+.hraswaswaraMainBox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    margin: 5px;
+    background: rgb(154, 147, 147);
+    border-radius: 10px;
+    padding-top: 15px;
+    min-height: 100%;
+}
+.whatisbox{
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.whatisbox h1{
+    font-size: 2.5em;
+    padding-bottom: 20px;
+    font-weight: 700;
+    text-shadow:  0 0 10px rgba(255, 255, 255, 0.897);
+    font-family: 'Noto serif Sinhala',sans-serif;
+}
+.whatisbox p{
+    font-size: 1em;
+    text-align: center;
+    width: 95%;
+    padding-bottom: 10px;
+    font-weight: 600;
+    color: rgb(25, 25, 29);
+    font-family: 'Noto serif Sinhala',sans-serif;
+}
+.AlpapranaDiscMainBox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    margin: 5px;
+    background: rgb(154, 147, 147);
+    border-radius: 10px;
+    padding-top: 15px;
+    min-height: 100%;
+}
+.dee{
+    transform: scale(.7);
+    filter: grayscale(1);
+    opacity: .7;
+}
+.dee:hover{
+    transform: scale(.8);
+    filter: grayscale(1);
+}
+.DeergswaswaraMainBox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    margin: 5px;
+    background: rgb(154, 147, 147);
+    border-radius: 10px;
+    padding-top: 15px;
+    min-height: 100%;
+}
+.hras{
+    transform: scale(.7);
+    filter: grayscale(1);
+    opacity: .7;
+}
+.hras:hover{
+    transform: scale(.8);
+    filter: grayscale(1);
+}
+.noalp{
+    transform: scale(.7);
+    filter: grayscale(1) brightness(.7);
+}
+.noalp:hover{
+    transform: scale(.8);
+    filter: grayscale(1);
+}
+.MahappranaDiscMainBox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    margin: 5px;
+    background: rgb(154, 147, 147);
+    border-radius: 10px;
+    padding-top: 15px;
+    min-height: 100%;
+}
+.noMahap{
+    transform: scale(.7);
+    filter: grayscale(1) brightness(.7);
+}
+.noMahap:hover{
+    transform: scale(.8);
+    filter: grayscale(1);
+}
+.VargaAnuDiscMainBox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    margin: 5px;
+    background: rgb(154, 147, 147);
+    border-radius: 10px;
+    padding-top: 15px;
+    min-height: 100%;
+}
+.SanjakaDiscMainBox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    margin: 5px;
+    background: rgb(154, 147, 147);
+    border-radius: 10px;
+    padding-top: 15px;
+    min-height: 100%;
+}
+.AnthahsDiscMainBox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    margin: 5px;
+    background: rgb(154, 147, 147);
+    border-radius: 10px;
+    padding-top: 15px;
+    min-height: 100%;
+}
+.AnthahsDiscMainBox #akvrdv h2{
+    animation: none;
+}
+.UshmakDiscMainBox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    margin: 5px;
+    background: rgb(154, 147, 147);
+    border-radius: 10px;
+    padding-top: 15px;
+    min-height: 100%;
+}
+.UshmakDiscMainBox #akvrdv h2{
+    animation: none;
+}
+.UshmakDiscMainBox #Dvijaksharabox{
+    animation: none;
+}
+.GoshaDiscMainBox #akvrdv h2{
+    animation: none;
+}
+.GoshaDiscMainBox #Dvijaksharabox{
+    animation: none;
+}
+.AGoshaDiscMainBox #akvrdv h2{
+    animation: none;
+}
+.AGoshaDiscMainBox #Dvijaksharabox{
+    animation: none;
+}
+.AnthahsDiscMainBox #akvrdv h2{
+    animation: none;
+}
+.AnthahsDiscMainBox #Dvijaksharabox{
+    animation: none;
+}
+.SanjakaDiscMainBox #akvrdv h2{
+    animation: none;
+}
+.SanjakaDiscMainBox #Dvijaksharabox{
+    animation: none;
+}
+.VargaAnuDiscMainBox #akvrdv h2{
+    animation: none;
+}
+.VargaAnuDiscMainBox #Dvijaksharabox{
+    animation: none;
+}
+.MahappranaDiscMainBox #akvrdv h2{
+    animation: none;
+}
+.MahappranaDiscMainBox #Dvijaksharabox{
+    animation: none;
+}
+.AlpapranaDiscMainBox #akvrdv h2{
+    animation: none;
+}
+.AlpapranaDiscMainBox #Dvijaksharabox{
+    animation: none;
+}
+.GoshaDiscMainBox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    margin: 5px;
+    background: rgb(154, 147, 147);
+    border-radius: 10px;
+    padding-top: 15px;
+    min-height: 100%;
+}
+.AGoshaDiscMainBox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    margin: 5px;
+    background: rgb(154, 147, 147);
+    border-radius: 10px;
+    padding-top: 15px;
+    min-height: 100%;
+}
+.notAgosha{
+    transform: scale(.7);
+    filter: grayscale(1) brightness(.7);
+}
+.notAgosha:hover{
+    transform: scale(.8);
+    filter: grayscale(1);
+}
+.Novran{
+    transform: scale(.7);
+    filter: grayscale(1) brightness(.7);
+}
+.Novran:hover{
+    transform: scale(.8);
+    filter: grayscale(1);
+}
+.noSanjaka{
+    transform: scale(.7);
+    filter: grayscale(1) brightness(.7);
+}
+.noSanjaka:hover{
+    transform: scale(.8);
+    filter: grayscale(1);
+}
+.SanjakaDiscMainBox .pinkbox{
+    background: rgba(51, 51, 51, 0.59);
+}
+.SanjakaDiscMainBox .Varganthaksara{
+    background: rgba(51, 51, 51, 0.59);
+}
+.SanjakaDiscMainBox .Varganthaksara h2{
+    color: rgba(216, 208, 208, 0.59);
+}
+.noAnthahstha{
+    transform: scale(.7);
+    filter: grayscale(1) brightness(.7);
+}
+.noAnthahstha:hover{
+    transform: scale(.8);
+    filter: grayscale(1);
+}
+.AnthahsDiscMainBox .pinkbox{
+    filter: grayscale(1);
+}
+.noush{
+    transform: scale(.7);
+    filter: grayscale(1) brightness(.7); 
+}
+.noush:hover{
+    transform: scale(.8);
+    filter: grayscale(1);
+}
+.UshmakDiscMainBox .pinkbox{
+    filter: grayscale(1);
+}
+.agoagoo{
+    transform: scale(.7);
+    filter: grayscale(1) brightness(.7); 
+}
+.agoagoo:hover{
+    transform: scale(.8);
+    filter: grayscale(1);
+}
+.PointedLeterAnimeBox{
+    background: rgba(213, 144, 227, 0.149);
+    border-radius: 10px;
+    border: 1px solid rgba(53, 49, 49, 0.526);
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    animation: animationLettersblink 2s ease-out infinite normal;
+}
+@keyframes animationLettersblink{
+    0%{
+        transform: scale(0.9);
+    }
+    50%{
+        transform: scale(.98);
+    }
+    100%{
+        transform: scale(0.9);
+    }
+}
+.listboxes{
+    position: relative;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+/* hraswa */
+.hColorbox{
+    width: 50px;
+    height: 50px;
+    background: rgba(1, 10, 48, 0.759);
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.hColorbox span{
+    width: 30px;
+    height: 30px;
+    background: rgb(239, 6, 107);
+    border-radius: 50%;
+}
+.listboxes h5{
+    font-size: 1.1em;
+    transition: .4s;
+    font-weight: 800;
+    text-shadow: 0 0 4px rgb(212, 204, 204);
+    margin-left: 5px;
+    font-family: 'Noto serif Sinhala',sans-serif;
+}
+.listboxes p{
+    margin-left: 5px;
+    font-weight: 600;
+    color: rgb(57, 49, 49);
+}
+.listboxes h5:hover{
+    transform: scale(1.1);
+}
+/* deerga */
+.DColorbox{
+    width: 50px;
+    height: 50px;
+    background: rgba(1, 10, 48, 0.759);
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.DColorbox span{
+    width: 30px;
+    height: 30px;
+    background: antiquewhite;
+    border-radius: 50%;
+}
+/* sandyakshara */
+.SandyaColorbox{
+    width: 50px;
+    height: 50px;
+    background: rgba(198, 201, 219, 0.196);
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.SandyaColorbox i{
+    font-size: 1.3em;
+    border-radius: 50%;
+    opacity: .8;
+}
+
+/* Namya Swara */
+.NamyaColorbox{
+    width: 50px;
+    height: 50px;
+    background: rgba(198, 201, 219, 0.196);
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.NamyaColorbox i{
+    font-size: 1.3em;
+    border-radius: 50%;
+    opacity: .8;
+}
+
+/* Anamya Swara */
+
+.AnamyaColorbox{
+    width: 50px;
+    height: 50px;
+    background: rgba(198, 201, 219, 0.196);
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.AnamyaColorbox i{
+    font-size: 1.3em;
+    border-radius: 50%;
+    opacity: .8;
+}
+
+/* alpaprana */
+.AlColorbox{
+    width: 50px;
+    height: 50px;
+    background: #ecdc2de5;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.AlColorbox span{
+    width: 30px;
+    height: 30px;
+    background: rgb(30, 29, 29);
+    border-radius: 50%;
+}
+/* Mahaprana */
+.MhColorbox{
+    width: 50px;
+    height: 50px;
+    background: #ecdc2de5;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.MhColorbox span{
+    width: 30px;
+    height: 30px;
+    background: rgb(103, 15, 109);
+    border-radius: 50%;
+}
+/* Vargantha */
+.VrhColorbox{
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(rgba(255, 255, 255, 0.442) 50%, #ecdc2de5 50%);
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.VrhColorbox span{
+    width: 30px;
+    height: 30px;
+    background: rgb(9, 88, 148);
+    border-radius: 50%;
+}
+/* Sanjakakshara */
+.SjColorbox{
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.442);
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.SjColorbox span{
+    width: 30px;
+    height: 30px;
+    background: rgb(5, 90, 31);
+    border-radius: 50%;
+}
+/* Anthahsthakshara */
+.AthhColorbox{
+    width: 50px;
+    height: 50px;
+    background: rgb(255, 255, 255);
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.AthhColorbox span{
+    width: 30px;
+    height: 30px;
+    background: rgb(224, 131, 44);
+    border-radius: 50%;
+}
+/* Ushmakshara */
+.UshColorbox{
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.442);
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.UshColorbox span{
+    width: 30px;
+    height: 30px;
+    background: rgb(85, 9, 5);
+    border-radius: 50%;
+}
+/* Goshakshara */
+.GooColorbox{
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.105);
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+/* AGoshakshara */
+.AGooColorbox{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.105);
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.AGooColorbox::before{
+    content: 'අඝෝෂ';
+    font-size: 10px;
+    color: aliceblue;
+    width: 80px;
+    height: 50px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    background: #161623e1;
+    bottom: -30px;
+    left: -45px;
+    transform: rotate(45deg);
+}
+
+.cbforborder{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.249);
+    border: 1px solid rgba(53, 49, 49, 0.748);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    opacity: .9;
+    transition: .4s;
+}
+.cbforborder:hover{
+    transform: translateY(-10px);
+    opacity: 1;
+    filter: brightness(1.1);
+}
+.cbforborder span{
+    border: 1px solid rgba(53, 49, 49, 0.748);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.456);
+}
+.backToWarnamala{
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    width: 80px;
+    background: linear-gradient(rgba(150, 6, 136, 0.374), rgba(8, 162, 116, 0.303));
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    animation: animationbacktowr 3s ease-in-out infinite;
+    border-radius: 10px;
+    border: 1px solid rgba(78, 75, 75, 0.748);
+    border-top: 1px solid rgba(255, 255, 255, 0.318);
+    border-left: 1px solid rgba(255, 255, 255, 0.318);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.456);
+    cursor: pointer;
+    opacity: .8;
+}
+@keyframes animationbacktowr{
+    0%{
+        transform: translateY(-4px);
+    }
+    50%{
+        transform: translateY(4px);
+    }
+    100%{
+        transform: translateY(-4px);
+    }
+}
+.backToWarnamala img{
+    position: relative;
+    border-radius: 5px;
+    width: 50px;
+    height: 60px;
+    opacity: .7;
+    transition: .3s;
+}
+.backToWarnamala img:hover{
+    opacity: .95;
+}
+.backToWarnamala i{
+    margin-right: 5px;
+}
+#otherNum{
+    color: #d70303aa;
+}
+.MAINswyawiyaa h1{
+    font-size: 5.5em;
+    text-shadow: 0 0 15px rgba(29, 27, 27, 0.923);
+}
+.MAINswyawiyaa .moreStudy{
+    color: #161623;
+    font-weight: 800;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.359);
+    border-radius: 10px;
+    border: 1px solid rgba(78, 75, 75, 0.748);
+    border-top: 1px solid rgba(255, 255, 255, 0.318);
+    border-left: 1px solid rgba(255, 255, 255, 0.318);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.456);
+    text-shadow: 0 0 3px rgb(204, 198, 198);
+    transition: .4s;
+    margin: 20px 0;
+}
+.MAINswyawiyaa .moreStudy:hover{
+    transform: scale(1.1);
+    filter: brightness(1.3);
+}
+.PinkWargaMaint{
+    background: rgba(244, 153, 241, 0.162);
+}
+.PinkWargaMaint h1{
+    font-size: 5.5em;
+    text-shadow: 0 0 15px rgba(29, 27, 27, 0.923);
+}
+.contentVargasTitle{
+    background: rgba(232, 157, 127, 0.245);
+    text-shadow: 0 0 15px rgba(29, 27, 27, 0.923);
+}
+.contentVargasTitle h1{
+    font-size: 4.5em;
+}
+@media screen and (max-width: 650px){
+    .mainhodibox{
+        flex-direction: column;
+    }
+    .akuruAK{
+        width: 50px;
+        height: 50px;
+    }
+}
+.SandaysharaMainBox,.NamyaswaswaraMainBox, .AnamyaswaswaraMainBox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    margin: 5px;
+    background: rgb(154, 147, 147);
+    border-radius: 10px;
+    padding-top: 15px;
+    min-height: 100%;
+}
+.NewnewUlNewThree{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+}
+.NewnewUlNewThree li{
+    font-family: 'Noto serif Sinhala',sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 10px;
+    list-style: circle;
+}

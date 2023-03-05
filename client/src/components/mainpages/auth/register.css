@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.R-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(4, 1, 1);
+}
+.R-section{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.R-section::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#000,#0aa385,#000);
+    animation: animate 5s linear infinite;
+}
+@keyframes animate{
+    0%
+    {
+        transform: translateY(-100%);
+    }
+    100%
+    {
+        transform: translateY(100%);
+    }
+}
+
+.R-section span{
+    position: relative;
+    display: block;
+    width: calc(6.25vw - 2px);
+    height: calc(6.25vw - 2px);
+    background: #0a0a18;
+    z-index: 2;
+    transition: 1.5s;
+}
+.R-section span:hover{
+    background: #0aa385;
+    transition: 0s;
+}
+
+
+.R-section .R-login-page{
+    position: absolute;
+    width: 400px;
+    background: rgb(20, 18, 28);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    border-radius: 4px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+}
+.R-section .R-login-page .R-login-page-content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+.R-login-page-content h2{
+    font-size: 2em;
+    color: #19c5a2;
+}
+.R-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.R-form .R-inputBx{
+    position: relative;
+    width: 100%;
+}
+.R-form .R-inputBx input{
+    position: relative;
+    width: 100%;
+    background: #333;
+    border: none;
+    outline: none;
+    padding: 25px 10px 7.5px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1em;
+}
+.R-form .R-inputBx i{
+    position: absolute;
+    left: 0;
+    padding: 15px 10px;
+    font-style: normal;
+    color: #aaa;
+    transition: 0.5s;
+    pointer-events: none;
+}
+.R-form .R-inputBx input:focus ~ i,
+.R-form .R-inputBx input:valid ~ i{
+    transform: translateY(-7.5px);
+    font-size: 0.8em;
+    color: #fff;
+}
+
+.R-form .R-links{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.R-form .R-links h4{
+    color: rgb(227, 215, 215);
+    text-decoration: none;
+    font-size: 12px;
+}
+#loglink{
+    color: #19c5a2;
+    font-size: 16px;
+    font-style: italic;
+    transition: 0.4s;
+}
+#loglink:hover{
+    transform: scale(1.1);
+}
+.R-form .R-inputBx input[type="submit"]{
+    padding: 10px;
+    background-color: #0eb594;
+    color: #111;
+    font-weight: 600;
+    font-size: 1.25em;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.R-form .R-inputBx input[type="submit"]:hover{
+    transform: scale(1.1);
+}
+
+@media (max-width: 900px){
+    .R-section span
+    {
+        width: calc(10vw - 2px);
+        height: calc(10vw - 2px);
+    }
+}
+
+#R-maxtitle{
+    font-size: 40px;
+}
+
+@media (max-width: 600px){
+    .R-section span
+    {
+        width: calc(20vw - 2px);
+        height: calc(20vw - 2px);
+    }
+}

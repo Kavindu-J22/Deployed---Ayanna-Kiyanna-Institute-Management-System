@@ -4,12 +4,12 @@ import axios from 'axios'
 import swal from 'sweetalert'
 import "./sehome.css";
 import Sehomeimg from "../../assets/images/SEphoto.png"
-import Sli1 from "../../assets/images/Sli1.png"
-import Sli2 from "../../assets/images/Sli2.png"
-import Sli3 from "../../assets/images/Sli3.png"
-import Sli4 from "../../assets/images/Sli4.png"
-import Sli5 from "../../assets/images/Sli5.png"
-import Sli6 from "../../assets/images/Sli6.png"
+import Sli1 from "../../assets/images/s1.png"
+import Sli2 from "../../assets/images/s2.png"
+import Sli3 from "../../assets/images/s3.png"
+import Sli4 from "../../assets/images/s4.png"
+import Sli5 from "../../assets/images/s5.png"
+import Sli6 from "../../assets/images/s6.png"
 
 
 

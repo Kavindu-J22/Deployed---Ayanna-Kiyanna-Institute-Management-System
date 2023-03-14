@@ -125,3 +125,26 @@
     }
         
 }
+@media (max-width: 580px) {
+    .listofnewmenu{
+        margin: 60px;
+    }
+    .newheader ul li{
+        padding: 20px;
+    }
+    .newheader ul li i{
+        padding: 5px;
+        font-size: 1em;  
+    }
+    .newheadlink{
+        font-size: 1.5em;
+    }
+    .logoHead-titlenew{
+        padding: 35px;
+        margin-bottom: 20px;
+    }
+    .newheader h2{
+        top: 70px;
+        font-size: 2.7em;  
+    }
+}

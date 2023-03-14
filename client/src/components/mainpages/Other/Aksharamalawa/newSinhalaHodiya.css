@@ -77,6 +77,11 @@
     height: 100%;
     background: rgba(255, 255, 255, 0.04);
 }
+.sinhalaAkuruDiscbox h4{
+    position: absolute;
+    bottom: 20px;
+    font-size: .7rem;
+}
 .swarabtnsboxnn{
     position: relative;
     display: flex;
@@ -1459,4 +1464,12 @@
 .NewnewUlNewThree span{
     font-size: 20px;
     color: #000;
+}
+@media (max-width: 850px){
+    .NuthanahodiyaMain-MAinTitelbox{
+        display: none;
+    }
+    .mainhodibox{
+        display: none;
+    }
 }

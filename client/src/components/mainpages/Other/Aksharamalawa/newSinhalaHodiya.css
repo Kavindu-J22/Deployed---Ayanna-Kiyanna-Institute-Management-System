@@ -1466,14 +1466,14 @@
     }
 } */
 
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
     .NuthanahodiyaMain-MAinTitelbox{
         width: 100%;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        text-align: center;
         min-height: 130px;
         font-size: 1.3em;
     }
@@ -1494,7 +1494,8 @@
     .listboxes{
         width: 300px;
         margin: 5px;
-        background: #33333328;   
+        background: #33333328;
+        margin-right: 50px;  
     }
     .emtySpaceSwarabox{
         display: none;
@@ -1555,6 +1556,124 @@
     .vargaLableBox h2{
         font-family: 'Noto serif Sinhala',sans-serif;
         font-size: 1.2em;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 785px) {
+    .NuthanahodiyaMain-MAinTitelbox{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        min-height: 130px;
+        font-size: 1.1em;
+    }
+    .cbforborder{
+        width: 40px;
+        height: 40px;
+    }
+    .cbforborder span{
+        width: 30px;
+        height: 30px;
+    }
+    .listboxes h5{
+        font-size: 1em;
+    }
+    .listboxes p{
+        font-size: .8em;
+    }
+    .whatisbox{
+        padding: 10px;
+    }
+    .whatisbox h1{
+        font-size: 2em;
+    }
+    .whatisbox p{
+        font-size: .9em;
+    }
+    .mainhodibox{
+        flex-direction: column-reverse;
+    }
+    .swarabtnsboxnn{
+        flex-wrap: wrap;
+        flex-direction: row;
+        background: rgba(250, 235, 215, 0.323);
+        padding: 20px 20px;
+    }
+    .viyanjanabtnsboxnn{
+        flex-wrap: wrap;
+        flex-direction: row;
+        padding: 20px 20px;
+    }
+    .listboxes{
+        width: 200px;
+        margin: 5px;
+        background: #33333328;   
+    }
+    .emtySpaceSwarabox{
+        display: none;
+    }
+    .swaraAkuruMain{
+        min-height: 25vh;
+        margin: 5px;
+        padding: 10px 20px; 
+        border-left: 20px solid rgba(8, 1, 24, 0.773);
+    }
+    .viyanAkuruMain{
+        padding: 10px 5px;
+    }
+    .akuruAK{
+        width: 70px;
+        height: 70px;
+        margin: 2px;
+        padding-bottom: 10px;
+    }
+    .akuruAK h5{
+        font-size: 2.3em;
+    }
+    .akuruAK p{
+        font-size: .7em;
+    }
+    .Varganthaksara{
+        width: 20px;
+        height: 100%;
+    }
+    .Varganthaksara h2{
+        font-size: .9em;
+    }
+    #akvrdv h2{
+        width: 60px;
+        height: 40px;
+        font-size: 1em
+    }
+    #Dvijaksharabox{
+        margin-right: 25px;
+        width: 60px;
+        height: 60px;
+    }
+    #Dvijaksharabox h5{
+        font-size: .6em;
+    }
+    #anahbox{
+        margin-left: 87px;
+    }
+    #finalYataLetters{
+        margin-left: 87px;
+    }
+    .vargaLableBox{
+        width: 20px;
+        height: 250px;
+        border-right: 4px solid #333;
+        margin: 5px;
+    }
+    #vargaLableBoxviya{
+        height: 600px;
+    }
+    .vargaLableBox h2{
+        font-size: 1.1em;
         font-weight: 600;
     }
 }

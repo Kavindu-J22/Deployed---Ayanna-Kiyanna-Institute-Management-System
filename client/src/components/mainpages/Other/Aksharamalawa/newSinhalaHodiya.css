@@ -1424,15 +1424,7 @@
 .contentVargasTitle h1{
     font-size: 4.5em;
 }
-@media screen and (max-width: 650px){
-    .mainhodibox{
-        flex-direction: column;
-    }
-    .akuruAK{
-        width: 50px;
-        height: 50px;
-    }
-}
+
 .SandaysharaMainBox,.NamyaswaswaraMainBox, .AnamyaswaswaraMainBox{
     position: relative;
     display: flex;
@@ -1465,11 +1457,114 @@
     font-size: 20px;
     color: #000;
 }
-@media (max-width: 850px){
+ /* @media (max-width: 850px){
     .NuthanahodiyaMain-MAinTitelbox{
         display: none;
     }
     .mainhodibox{
         display: none;
     }
+} */
+
+@media (max-width: 1000px) {
+    .NuthanahodiyaMain-MAinTitelbox{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 130px;
+        font-size: 1.3em;
+    }
+    .mainhodibox{
+        flex-direction: column-reverse;
+    }
+    .swarabtnsboxnn{
+        flex-wrap: wrap;
+        flex-direction: row;
+        background: rgba(250, 235, 215, 0.323);
+        padding: 20px 20px;
+    }
+    .viyanjanabtnsboxnn{
+        flex-wrap: wrap;
+        flex-direction: row;
+        padding: 20px 20px;
+    }
+    .listboxes{
+        width: 300px;
+        margin: 5px;
+        background: #33333328;   
+    }
+    .emtySpaceSwarabox{
+        display: none;
+    }
+    .swaraAkuruMain{
+        position: relative;
+        width: auto;
+        min-height: 30vh;
+        margin: 5px;
+        padding: 10px 20px; 
+        border-left: 20px solid rgba(8, 1, 24, 0.773);
+    }
+    .akuruAK{
+        width: 80px;
+        height: 80px;
+        margin: 2px;
+        padding-bottom: 10px;
+    }
+    .akuruAK h5{
+        font-size: 2.5em;
+    }
+    .akuruAK p{
+        font-size: .8em;
+    }
+    .Varganthaksara{
+        width: 30px;
+        height: 100%;
+    }
+    .Varganthaksara h2{
+        font-size: 1em;
+    }
+    #akvrdv h2{
+        width: 80px;
+        height: 50px;
+        font-size: 1.2em
+    }
+    #Dvijaksharabox{
+        margin-right: 35px;
+        width: 80px;
+        height: 80px;
+    }
+    #Dvijaksharabox h5{
+        font-size: .8em;
+    }
+    #anahbox{
+        margin-left: 117px;
+    }
+    #finalYataLetters{
+        margin-left: 117px;
+    }
+    .vargaLableBox{
+        width: 30px;
+        height: 300px;
+    }
+    #vargaLableBoxviya{
+        height: 700px;
+    }
+    .vargaLableBox h2{
+        font-family: 'Noto serif Sinhala',sans-serif;
+        font-size: 1.2em;
+        font-weight: 600;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 650px){
+
 }

@@ -104,11 +104,11 @@ function NewSinhalaHodiya() {
             <h1>❂ නූතන සිංහල වර්ණ මාලාව ❂</h1>
             <h2>- Smart Sinhala Alphabet -</h2>
         </div>
-        <div className="contactMobilebox">
+        {/* <div className="contactMobilebox">
                 <p>මෙම පිටුව තවමත් ජංගම දුරකථන වල භාවිතය සඳහා සකස් කර අවසන් නොමැති අතර desktop, laptop, tablet වැණි උපාංග හරහා  ඔබට මෙහි අත්දැකීම ලබා ගත හැකිය.</p>
                 <p>This page is not yet ready for use on mobile phones and you can get the experience here through devices like desktop, laptop, tablet.Good Luck.Thank you..!</p>
 
-            </div>
+            </div> */}
         <div className='mainhodibox'>
 
           <div>

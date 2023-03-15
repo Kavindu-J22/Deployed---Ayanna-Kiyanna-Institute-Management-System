@@ -323,11 +323,45 @@ hr{
 
 @media screen and (max-width: 650px){
   .newthinkMenu{
-    top: 30px;
-    left: 15px;
-    animation: none;
+    display: none;
   }
   .MainBackbtnmy{
     display: none;
+  }
+}
+
+@media (max-width: 450px) {
+  .MyCloseBtn{
+    right: 20px;
+    top: 20px;
+    color: rgba(240, 248, 255, 0.741);
+    font-size: 1.3em;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    
+  }
+  /* .AkstableLogo{
+    width: 35px;
+    height: 30px;
+    top: 30%;
+    left: 10px;
+  }
+  .AkstableLogo img{
+    width: 33px; 
+  } */
+  .AkstableLogo{
+    display: none;
+  }
+  .top-btn{
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    bottom: 25px;
+    right: 20px;
+  }
+  .top-btn i{
+    animation: gototopanimatation 1.2s linear infinite alternate-reverse;
+    text-shadow: 0 0 5px rgba(51, 51, 51, 0.788);
   }
 }

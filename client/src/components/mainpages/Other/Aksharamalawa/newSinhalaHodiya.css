@@ -79,7 +79,7 @@
 }
 .sinhalaAkuruDiscbox h4{
     position: absolute;
-    bottom: 20px;
+    bottom: 10px;
     font-size: .7rem;
 }
 .swarabtnsboxnn{
@@ -1457,6 +1457,9 @@
     font-size: 20px;
     color: #000;
 }
+.mainakurutitleinmobile{
+    display: none;
+}
  /* @media (max-width: 850px){
     .NuthanahodiyaMain-MAinTitelbox{
         display: none;
@@ -1677,6 +1680,237 @@
         font-weight: 600;
     }
 }
+
+
+@media (max-width: 650px) {
+    .NuthanahodiyaMain-MAinTitelbox{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        min-height: 130px;
+        font-size: 1em;
+    }
+    .cbforborder{
+        width: 30px;
+        height: 30px;
+    }
+    .cbforborder span{
+        width: 20px;
+        height: 20px;
+    }
+    .listboxes h5{
+        font-size: .8em;
+    }
+    .listboxes p{
+        font-size: .7em;
+    }
+    .whatisbox{
+        padding: 10px;
+    }
+    .whatisbox h1{
+        font-size: 1.5em;
+    }
+    .whatisbox p{
+        font-size: .7em;
+    }
+    .whatisbox li span{
+        font-size: 1.4em;
+    }
+    .whatisbox li{
+        font-size: .7em;
+    }
+    .mainhodibox{
+        flex-direction: column;
+    }
+    .swarabtnsboxnn{
+        flex-wrap: wrap;
+        flex-direction: row;
+        background: rgba(250, 235, 215, 0.323);
+        padding: 10px 10px;
+    }
+    .viyanjanabtnsboxnn{
+        flex-wrap: wrap;
+        flex-direction: row;
+        padding: 10px 10px;
+    }
+    .listboxes{
+        width: 200px;
+        margin: 5px;
+        background: #33333328;   
+    }
+    .emtySpaceSwarabox{
+        display: none;
+    }
+    .swaraAkuruMain{
+        min-height: 20vh;
+        margin: 5px;
+        padding: 10px 20px; 
+        border-left: 20px solid rgba(14, 4, 37, 0.773);
+    }
+    .viyanAkuruMain{
+        padding: 10px 5px;
+        border-left: 1px solid #949090;
+    }
+    .akuruAK{
+        width: 40px;
+        height: 40px;
+        margin: 2px;
+        padding-bottom: 10px;
+    }
+    .akuruAK h5{
+        font-size: 1.5em;
+    }
+    .akuruAK p{
+        top: 3px;
+        left: 3px;
+        font-size: .5em;
+    }
+    .Varganthaksara{
+        width: 17px;
+        height: 100%;
+    }
+    .Varganthaksara h2{
+        font-size: .8em;
+    }
+    #akvrdv h2{
+        width: 50px;
+        height: 30px;
+        font-size: .8em
+    }
+    #Dvijaksharabox{
+        margin-right: 20px;
+        width: 50px;
+        height: 50px;
+    }
+    #Dvijaksharabox h5{
+        font-size: .5em;
+    }
+    #anahbox{
+        margin-left: 72px;
+    }
+    #finalYataLetters{
+        margin-left: 72px;
+    }
+    .vargaLableBox{
+        display: none;
+    }
+    .vargaLableBox h2{
+        font-size: 1.1em;
+        font-weight: 600;
+    }
+    .AGooColorbox::before{
+        content: 'අඝෝෂ';
+        font-size: .5em;
+        color: aliceblue;
+        width: 40px;
+        height: 50px;
+        padding: 2px;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        background: #161623e1;
+        bottom: -30px;
+        left: -26px;
+        transform: rotate(43deg);
+    }
+    .agoshamark::before{
+        content: 'අඝෝෂ';
+        font-size: .3em;
+        color: aliceblue;
+        width: 80px;
+        height: 50px;
+        padding: 2px;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        background: #161623e1;
+        bottom: -48px;
+        left: -47px;
+        transform: rotate(42deg);
+    }
+    .AakuruwistharamainboxContent{
+        position: relative;
+        min-width: 40vh;
+        min-height: 40vh;
+        padding: 10px;
+    }
+    .AakuruwistharamainboxContent h1{
+        font-size: 5em;
+        margin-bottom: 20px;
+    }
+    .AakuruwistharamainboxContent p{
+        font-size: .7em;
+        font-weight: 500;
+        margin: 10px;
+    }
+    .AakuruwistharamainboxContent ul{
+        font-size: .7em;
+        margin: 10px;
+        font-weight: 500;
+        max-width: 500px;
+        padding-left: 60px;
+    }
+    .AakuruwistharamainboxContent ul li{
+        margin: 5px;
+    }
+    .AakuruwistharamainboxContent #titleP{
+        font-size: .9em; 
+    }
+    .contentVargasTitle h1{
+        font-size: 1.4em;
+    }
+    .MAINswyawiyaa h1{
+        font-size: 1.4em;
+    }
+    .backToWarnamala{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 50px;
+        background: linear-gradient(rgba(150, 6, 136, 0.374), rgba(8, 162, 116, 0.303));
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        animation: animationbacktowr 3s ease-in-out infinite;
+        border-radius: 10px;
+        border: 1px solid rgba(78, 75, 75, 0.748);
+        border-top: 1px solid rgba(255, 255, 255, 0.318);
+        border-left: 1px solid rgba(255, 255, 255, 0.318);
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.456);
+        cursor: pointer;
+        opacity: .8;
+    }
+    .backToWarnamala img{
+        position: relative;
+        border-radius: 5px;
+        width: 20px;
+        height: 30px;
+        opacity: .7;
+        transition: .3s;
+    }
+    .MyOkBtn{
+        font-size: .8em;
+        width: 35px;
+        height: 30px
+    }
+    .mainakurutitleinmobile{
+        display: flex;
+        justify-content: center;
+        width: 150px;
+        border-bottom: 2px solid #4c4848;
+        margin-bottom: 5px;
+        color: #140d29;
+    }
+    .mainakurutitleinmobile h2{
+        font-size: 1.2em;
+    }
+}
+
 
 
 

@@ -79,8 +79,8 @@
 }
 .sinhalaAkuruDiscbox h4{
     position: absolute;
-    bottom: 10px;
-    font-size: .7rem;
+    bottom: 0;
+    font-size: .5rem;
 }
 .swarabtnsboxnn{
     position: relative;
@@ -1916,9 +1916,10 @@
         font-family: 'Noto serif Sinhala',sans-serif;
     }
     .MAINswyawiyaa .moreStudy{
-        font-size: .6em;
+        font-size: .5em;
+        font-family: 'Noto serif Sinhala',sans-serif;
         width: 155px;
         height: 30px;
-        color: #1f1f27;
+        color: #010114;
     }
 }

@@ -1865,6 +1865,9 @@
     .MAINswyawiyaa h1{
         font-size: 1.4em;
     }
+    .PinkWargaMaint h1{
+        font-size: 1.4em; 
+    }
     .backToWarnamala{
         position: absolute;
         top: 0;
@@ -1903,21 +1906,17 @@
         justify-content: center;
         width: 150px;
         border-bottom: 2px solid #4c4848;
-        margin-bottom: 5px;
+        margin-bottom: 2px;
         color: #140d29;
+        text-shadow: 0 10px 10px #33333380;
     }
     .mainakurutitleinmobile h2{
         font-size: 1.2em;
     }
-}
+    .MAINswyawiyaa .moreStudy{
 
-
-
-
-
-
-
-
-@media screen and (max-width: 650px){
-
+        font-size: .8em;
+        width: 155px;
+        height: 30px;
+    }
 }

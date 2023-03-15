@@ -115,11 +115,11 @@ function NewSinhalaHodiya() {
 
           {LetterBoxActive === "Fristbox" && <div className='sinhalaAkurumainbox' data-aos="fadeInUp">
                <div className='whatisbox'>
-                         <p>ලෝකයේ ප්‍රථම වරට නිර්මාණය කරන ලද සුහුරු ( Smart ) හෝඩිය මෙයයි. එය ශ්‍රී ලංකාවේ භාවිත වන සිංහල හෝඩියට නිර්මාණය කර තිබීම රටක් වශයෙන් අප ආඩම්බර විය යුතු කරුණකි. මෙහි සෑම අක්ෂරයක් ම ක්ලික් කිරීම තුලින් ඔබට පහසුවෙන් එම අක්ෂර ය පිළිබඳව සියලුම විස්තර දැන ගැනීමේ හැකියාව ඇත. එමෙන්ම ස්වර, ව්‍යංජන ව්‍යඤ්ජන වැනි හෝඩියේ දක්නට ලැබෙන විවිධ අක්ෂර කාණ්ඩ මත ක්ලික් කිරීමෙන් ද ඒවා පිළිබඳව විස්තර රැසක් දැන ගැනීමේ හැකියාව ද මෙය තුළින් ලබා දී ඇත. තවද, දකුණු පස තීරුවේ ඇති විවිධ අක්ෂර ප්‍රවර්ග මත ක්ලික් කිරීමෙන් ඒවා පිළිබඳව පහසුවෙන් වෙන වෙනම පහසුවෙන් හැදෑරීමේ හැකියාව ද මෙම smart sinhala alphabet එක තුලින් ඔබට ලබා දී ඇත. හොඳින් භාවිතා කර ඔබේ දැනුම වැඩි කරගන්න.</p>
+                         <p>ලෝකයේ ප්‍රථම වරට නිර්මාණය වූ සුහුරු (Smart) අක්ෂර මාලාව මෙයයි. මෙය ශ්‍රී ලංකාවේ භාවිතා වන සිංහල අක්ෂර මාලාව උදෙසා නිර්මාණය කර ඇත. සිංහල භාෂාව අධ්‍යාපනය ලබන සහ අධ්‍යාපනය ලබා දෙන සියළුම මට්ටම්වල පිරිස් සඳහා ම වඩාත් නිවැරදි සහ වැදගත් තොරතුරු රාශියක් ඇතුළත් කර මෙය නිර්මාණය කර ඇත. මේ භාවිතා කිරීමේදී ඕනෑම අක්ෂරයක් මත click කිරීම තුළින් ඔබට එම අක්ෂරය පිළිබඳව නිවැරදි හා වැදගත්ම තොරතුරු සියල්ල අධ්‍යනය කිරිමේ හැකියාව ලැබේ. එමෙන්ම ස්වර,ව්‍යංජන ආදී හෝඩියේ දක්නට අක්ෂර කන්ඩාණ්ඩ මත click කිරීම තුළින් ද ඔබට එම අක්ෂර කාණ්ඩ පිළිබඳවද අධ්‍යනය කිරීමේ පහසුව සලසා දී ඇත. තවද, දකුණු පස තීරුවේ ඇති ( ජංගම දුරකථන වල භාවිතයේ දී පහතින් දක්නට ඇති ) අක්ෂර ප්‍රවර්ග මත click කිරීම තුළින් ඔබට ඒ ඒ අක්ෂර ප්‍රවර්ගය පිළිබඳවද වෙන වෙනම අධ්‍යනය අධ්‍යනය කිරීමේ පහසුව ද මෙය තුළින් සලසා දී ඇත. එමෙන්ම තවත් බොහෝ අංග ද සහිතව ආකර්ෂණීයව නිර්මාණය කර ඇති මෙම smart Sinhala alphabet එක හොඳින් භාවිතා කර විෂය පිළිබඳ දැනුම ඔබත් පුළුල් කරගන්න.</p>
                          <p>This is the first smart alphabet created in the world.  It is a fact that we should be proud of as a country that it was created in the Sinhala alphabet used in Sri Lanka.  By clicking on each character here, you can easily know all the details about that character.  Also, by clicking on various groups of characters found in the alphabet such as vowels, consonants and consonants, it is also possible to know many details about them.  Furthermore, this smart sinhala alphabet has also given you the ability to easily study them separately by clicking on the different character categories in the right column.  Use it well and increase your knowledge.</p>
                     </div>
                     <div className='mainakurutitleinmobile'>
-                        <h2 onClick={()=>setShowSwara(!showSwara)}>♦ ස්වර ♦</h2>
+                        <h2 onClick={()=>setShowSwara(!showSwara)}>✥ ස්වර ✥</h2>
                     </div>  
                 <div className='swaraAkuruMaincontainer'>
 
@@ -257,7 +257,7 @@ function NewSinhalaHodiya() {
                 </div>
 
                 <div className='mainakurutitleinmobile'>
-                        <h2 onClick={()=>setShowViyan(!showViyan)}>♦ ව්‍යංජන ♦</h2>
+                        <h2 onClick={()=>setShowViyan(!showViyan)}>✥ ව්‍යංජන ✥</h2>
                     </div> 
 
                 <div className='viyanAkuruMainContainer'>

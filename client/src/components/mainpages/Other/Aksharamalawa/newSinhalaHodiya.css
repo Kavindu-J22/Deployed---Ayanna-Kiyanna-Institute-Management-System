@@ -1916,8 +1916,9 @@
         font-family: 'Noto serif Sinhala',sans-serif;
     }
     .MAINswyawiyaa .moreStudy{
-        font-size: .7em;
+        font-size: .6em;
         width: 155px;
         height: 30px;
+        color: #1f1f27;
     }
 }

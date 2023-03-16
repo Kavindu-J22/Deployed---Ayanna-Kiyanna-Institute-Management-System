@@ -339,11 +339,11 @@ hr{
   .MyCloseBtn{
     right: 20px;
     top: 20px;
-    color: rgba(240, 248, 255, 0.741);
-    font-size: 1.3em;
+    color: rgba(240, 248, 255, 0.832);
+    font-size: 1.4em;
     cursor: pointer;
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     
   }
   /* .AkstableLogo{

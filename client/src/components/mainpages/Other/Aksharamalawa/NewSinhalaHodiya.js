@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './newSinhalaHodiya.css'
 import { Link } from "react-router-dom";
 import Staklogo from '../../../assets/images/AKlogo.png'
@@ -6,6 +6,10 @@ import backbtnmy from '../../../assets/images/B.png'
 import VrnaLet from '../../../assets/images/VranaLet.png'
 
 function NewSinhalaHodiya() {
+
+    const gototop = () => {
+        window.scrollTo({top:0, left:0, behavior: "smooth"});
+    };
 
     // swara letters
 
@@ -3997,58 +4001,58 @@ function NewSinhalaHodiya() {
                          
                          <div className='swarabtnsboxnn'>
                             <div onClick={()=>setLetterBoxActive("hraswaswaraMainBox")} className="listboxes">
-                                <div className='cbforborder hColorbox'><span></span></div><div><h5>හ්‍රස්ව ස්වර</h5>
+                                <div onClick={gototop} className='cbforborder hColorbox'><span></span></div><div onClick={gototop}><h5>හ්‍රස්ව ස්වර</h5>
                                 <p>(ලුහ ස්වර, ලඝු ස්වර) 08</p></div>
                             </div>
                             <div onClick={()=>setLetterBoxActive("DeergswaswaraMainBox")} className="listboxes">
-                                <div className='cbforborder DColorbox'><span></span></div><div><h5>දීර්ඝ ස්වර</h5>
+                                <div onClick={gototop} className='cbforborder DColorbox'><span></span></div><div onClick={gototop}><h5>දීර්ඝ ස්වර</h5>
                                 <p>(ගුරු ස්වර දික් ස්වර) 10</p></div>
                             </div>
                             <div onClick={()=>setLetterBoxActive("SandaysharaMainBox")} className="listboxes">
-                                <div className='cbforborder SandyaColorbox'><i class="fa-sharp fa-solid fa-pen-nib"></i></div><div><h5>සන්ධ්‍යක්ෂර</h5>
+                                <div onClick={gototop} className='cbforborder SandyaColorbox'><i class="fa-sharp fa-solid fa-pen-nib"></i></div><div onClick={gototop}><h5>සන්ධ්‍යක්ෂර</h5>
                                 <p>(සංයුක්ත ස්වර) 02 <span id='otherNum'>(06)</span></p></div>
                             </div>
                             <div onClick={()=>setLetterBoxActive("NamyaswaswaraMainBox")} className="listboxes">
-                                <div className='cbforborder NamyaColorbox'><i class="fa-sharp fa-solid fa-pen-nib"></i></div><div><h5>නම්‍ය ස්වර</h5>
+                                <div onClick={gototop} className='cbforborder NamyaColorbox'><i class="fa-sharp fa-solid fa-pen-nib"></i></div><div onClick={gototop}><h5>නම්‍ය ස්වර</h5>
                                 <p>(නම්‍ය ස්වර) 03</p></div>
                             </div>
                             <div onClick={()=>setLetterBoxActive("AnamyaswaswaraMainBox")} className="listboxes">
-                                <div className='cbforborder AnamyaColorbox'><i class="fa-sharp fa-solid fa-pen-nib"></i></div><div><h5>අනම්‍ය ස්වර</h5>
+                                <div onClick={gototop} className='cbforborder AnamyaColorbox'><i class="fa-sharp fa-solid fa-pen-nib"></i></div><div onClick={gototop}><h5>අනම්‍ය ස්වර</h5>
                                 <p>(අනම්‍ය ස්වර) 03</p></div>
                             </div>
                          </div>
 
                          <div className='viyanjanabtnsboxnn'>
                             <div onClick={()=>setLetterBoxActive("AlpapranaDiscMainBox")} className="listboxes">
-                                <div className='cbforborder AlColorbox'><span></span></div><div><h5>අල්පප්‍රාණ</h5>
+                                <div onClick={gototop} className='cbforborder AlColorbox'><span></span></div><div onClick={gototop}><h5>අල්පප්‍රාණ</h5>
                                 <p>(ශිථිලාක්ෂර) 10</p></div>
                             </div>
                             <div onClick={()=>setLetterBoxActive("MahappranaDiscMainBox")} className="listboxes">
-                                <div className='cbforborder MhColorbox'><span></span></div><div><h5>මහප්‍රාණ</h5>
+                                <div onClick={gototop} className='cbforborder MhColorbox'><span></span></div><div onClick={gototop}><h5>මහප්‍රාණ</h5>
                                 <p>(ධනිතාක්ෂර) 10</p></div>
                             </div>
                             <div onClick={()=>setLetterBoxActive("VargaAnuDiscMainBox")} className="listboxes">
-                                <div className='cbforborder VrhColorbox'><span></span></div><div><h5>වර්ගාන්තාක්ෂර</h5>
+                                <div onClick={gototop} className='cbforborder VrhColorbox'><span></span></div><div onClick={gototop}><h5>වර්ගාන්තාක්ෂර</h5>
                                 <p>(අනුනාසික්‍ය) 05 <span id='otherNum'>(06)</span></p></div>
                             </div>
                             <div onClick={()=>setLetterBoxActive("SanjakaDiscMainBox")} className="listboxes">
-                                <div className='cbforborder SjColorbox'><span></span></div><div><h5>සඤ්ඤකාක්ෂර</h5>
+                                <div onClick={gototop} className='cbforborder SjColorbox'><span></span></div><div onClick={gototop}><h5>සඤ්ඤකාක්ෂර</h5>
                                 <p>(අර්ධනාසික්‍ය) 05</p></div>
                             </div>
                             <div onClick={()=>setLetterBoxActive("AnthahsDiscMainBox")} className="listboxes">
-                                <div className='cbforborder AthhColorbox'><span></span></div><div><h5>අන්තඃස්ථාක්ෂර</h5>
+                                <div onClick={gototop} className='cbforborder AthhColorbox'><span></span></div><div onClick={gototop}><h5>අන්තඃස්ථාක්ෂර</h5>
                                 <p>(අර්ධස්වර) 04 <span id='otherNum'>(05)</span></p></div>
                             </div>
-                            <div onClick={()=>setLetterBoxActive("UshmakDiscMainBox")} className="listboxes">
-                                <div className='cbforborder UshColorbox'><span></span></div><div><h5>ඌෂ්මාක්ෂර</h5>
+                            <div onClick={()=>setLetterBoxActive("UshmakDiscMainBox") && {gototop}} className="listboxes">
+                                <div onClick={gototop} className='cbforborder UshColorbox'><span></span></div><div onClick={gototop}><h5>ඌෂ්මාක්ෂර</h5>
                                 <p>(ඝර්ෂ අක්ෂර) 06</p></div>
                             </div>
                             <div onClick={()=>setLetterBoxActive("AGoshaDiscMainBox")} className="listboxes">
-                                <div className='cbforborder AGooColorbox'></div><div><h5>අඝෝෂාක්ෂර</h5>
+                                <div onClick={gototop} className='cbforborder AGooColorbox'></div><div onClick={gototop}><h5>අඝෝෂාක්ෂර</h5>
                                 <p>(අඝෝෂ) 15</p></div>
                             </div>
                             <div onClick={()=>setLetterBoxActive("GoshaDiscMainBox")} className="listboxes">
-                                <div className='cbforborder GooColorbox'></div><div><h5>ඝෝෂාක්ෂර</h5>
+                                <div onClick={gototop} className='cbforborder GooColorbox'></div><div onClick={gototop}><h5>ඝෝෂාක්ෂර</h5>
                                 <p>(ඝෝෂ) 45</p></div>
                             </div>
                             

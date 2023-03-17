@@ -47,7 +47,7 @@ export default function Starting({ history }) {
 
             <div className="landing1stBtns">
 
-              <a href="#MAboutDiv" id ="Scrolbtn"><span>Explore</span></a>
+              <Link id ="Scrolbtn" to="downfristabout" spy={true} smooth={true} offset={10} duration={1500}><span>Explore</span></Link>
               {
                isLogged ? <a href="#" id ="LGbtnA" type="submit"><span>Connected</span></a> : <a href="/login" id ="LGbtnA" type="submit"><span>Connect With Us</span></a>
               }

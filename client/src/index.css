@@ -325,6 +325,8 @@ hr{
   .newthinkMenu{
     width: 30px;
     height: 30px;
+    top: 20px;
+    left: 15px;
   }
   .newthinkMenu i{
     font-size: 1em; 

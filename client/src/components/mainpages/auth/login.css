@@ -166,10 +166,54 @@
     font-size: 40px;
 }
 
-@media (max-width: 600px){
+@media (max-width: 650px){
     .L-section span
     {
         width: calc(20vw - 2px);
         height: calc(20vw - 2px);
+    }
+    .login-page-content h2{
+        font-size: 1em;
+    }
+    #maxtitle{
+        font-size: 1.5em;
+    }
+    .L-form .L-inputBx input{
+        font-weight: 400;
+        font-size: .8em;
+        height: 40px;
+        background: #32313181;
+    }
+    .L-section .login-page{
+        width: 250px;
+        padding: 20px;
+    }
+    .L-section .login-page .login-page-content{
+        gap: 25px;
+    }
+    .L-form{
+        gap: 25px;
+    }
+    .L-form .L-inputBx{
+        position: relative;
+        width: 100%;
+    }
+    .L-form .L-inputBx i{
+        font-size: .8em;
+    }
+    .L-form .L-inputBx input:focus ~ i,
+    .L-form .L-inputBx input:valid ~ i{
+        font-size: 0.6em;
+    }
+    .L-form .L-links h4{
+        color: rgb(185, 176, 176);
+        font-size: 8px;
+    }
+    #reglink{
+        font-size: 12px;
+    }
+    .L-form .L-inputBx input[type="submit"]{
+        padding: 5px;
+        font-size: .9em;
     }
 }

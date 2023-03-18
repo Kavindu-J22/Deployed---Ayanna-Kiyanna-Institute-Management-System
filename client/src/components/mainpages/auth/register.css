@@ -166,10 +166,54 @@
     font-size: 40px;
 }
 
-@media (max-width: 600px){
+@media (max-width: 650px){
     .R-section span
     {
         width: calc(20vw - 2px);
         height: calc(20vw - 2px);
+    }
+    .R-login-page-content h2{
+        font-size: 1em;
+    }
+    #R-maxtitle{
+        font-size: 1.5em;
+    }
+    .R-form .R-inputBx input{
+        font-weight: 400;
+        font-size: .8em;
+        height: 40px;
+        background: #32313181;
+    }
+    .R-section .R-login-page{
+        width: 250px;
+        padding: 20px;
+    }
+    .R-section .R-login-page .R-login-page-content{
+        gap: 25px;
+    }
+    .R-form{
+        gap: 25px;
+    }
+    .R-form .R-inputBx{
+        position: relative;
+        width: 100%;
+    }
+    .R-form .R-inputBx i{
+        font-size: .8em;
+    }
+    .R-form .R-inputBx input:focus ~ i,
+    .R-form .R-inputBx input:valid ~ i{
+        font-size: 0.6em;
+    }
+    .R-form .R-links h4{
+        color: rgb(185, 176, 176);
+        font-size: 8px;
+    }
+    #loglink{
+        font-size: 12px;
+    }
+    .R-form .R-inputBx input[type="submit"]{
+        padding: 5px;
+        font-size: .9em;
     }
 }

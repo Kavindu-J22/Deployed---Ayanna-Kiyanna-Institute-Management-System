@@ -25,7 +25,7 @@ function About(){
                     <button className="Abt-btn" type="button">Join With Us</button>
                     </a>
 
-                    <a href="#">
+                    <a href="/boxes/ClassDetails">
                         <button className="Abt-btn" type="button">More About</button>
                     </a>
                     

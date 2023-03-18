@@ -83,23 +83,6 @@
         padding: 70px 0px;
     }
 }
-@media screen and (max-width: 650px){
-    .about .about-main img{
-       margin-bottom: 35px; 
-    }
-    .about-text h1{
-        font-size: 60px;
-        margin-bottom: 25px;
-        text-align: center;
-    }
-    .about-text h5,p{
-        text-align: center;
-    }
-    .Abt-btn{
-        width: 170px;
-        margin: 10px 25%;
-    }
-}
 
 /* second part */
 
@@ -180,4 +163,53 @@
     color: #2a2c33;
     font-weight: bold;
     margin-bottom: 10px;
+}
+
+@media screen and (max-width: 650px){
+    .about .about-main img{
+       margin-bottom: 35px; 
+    }
+    .about-text h1{
+        font-size: 45px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    .about-text h5{
+        font-size: 1.3em;
+        text-align: center;
+    }
+    .about-text p{
+        font-size: .9em;
+        text-align: center;
+    }
+    .Abt-btn{
+        font-size: 13px;
+        width: 150px;
+        margin: 10px 25%;
+    }
+    .About-Card-container{
+        margin-top:  40px;
+    }
+    .About-Card-container .About-card{
+        max-width: 200px;
+        height: 150px;
+        margin: 55px 20px;
+        padding: 15px 2px; 
+    }
+    .About-Card-container .About-card:hover{
+        height: 350px;
+    }
+    .About-Card-container .About-card .About-imgbx{
+        width: 200px;
+        height: 200px;
+    }
+    .About-Card-container .About-card .About-card-content{
+        padding: 15px 20px;
+    }
+    .About-card-content h3{
+        font-size: 1.3em;
+    }
+    .About-card-content p{
+        font-size: 13px; 
+    }
 }

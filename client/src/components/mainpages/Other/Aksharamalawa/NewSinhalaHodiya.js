@@ -105,8 +105,22 @@ function NewSinhalaHodiya() {
         <div className='AkstableLogo'><Link to="/"><img src={Staklogo}></img></Link></div>
             <div className='MainBackbtnmy' onClick={() => window.history.back()}><img src={backbtnmy}></img></div>
         <div className='NuthanahodiyaMain-MAinTitelbox'>
-            <h1>❂ නූතන සිංහල වර්ණ මාලාව ❂</h1>
+            <h1>❂ සුහුරු සිංහල අක්ෂර මාලාව ❂</h1>
             <h2>- Smart Sinhala Alphabet -</h2>
+            <h2>❂ නිපැයුම - ජගත් කුමාර ජයසිංහ ❂</h2>
+            <div className='Visitorbox'>
+                <div className='PU_Units'>
+                <h4>Page Views : </h4>
+                <a href="https://www.hitwebcounter.com" target="_blank">
+                <img src="https://hitwebcounter.com/counter/counter.php?page=10525546&style=0025&nbdigits=5&type=page&initCount=0" title="Counter Widget" Alt="Visit counter For Websites"   border="0" /></a>
+                </div>
+                
+                <div className='PU_Units'>
+                <h4>Unique Visitors : </h4>
+                <a href="https://www.hitwebcounter.com" target="_blank">
+                <img src="https://hitwebcounter.com/counter/counter.php?page=10525870&style=0025&nbdigits=5&type=ip&initCount=0" title="Counter Widget" Alt="Visit counter For Websites"   border="0" /></a> 
+                </div>             
+            </div>
         </div>
         {/* <div className="contactMobilebox">
                 <p>මෙම පිටුව තවමත් ජංගම දුරකථන වල භාවිතය සඳහා සකස් කර අවසන් නොමැති අතර desktop, laptop, tablet වැණි උපාංග හරහා  ඔබට මෙහි අත්දැකීම ලබා ගත හැකිය.</p>
@@ -119,8 +133,8 @@ function NewSinhalaHodiya() {
 
           {LetterBoxActive === "Fristbox" && <div className='sinhalaAkurumainbox' data-aos="fadeInUp">
                <div className='whatisbox'>
-                         <p>ලෝකයේ ප්‍රථම වරට නිර්මාණය වූ සුහුරු (Smart) අක්ෂර මාලාව මෙයයි. මෙය ශ්‍රී ලංකාවේ භාවිතා වන සිංහල අක්ෂර මාලාව උදෙසා නිර්මාණය කර ඇත. සිංහල භාෂාව අධ්‍යාපනය ලබන සහ අධ්‍යාපනය ලබා දෙන සියළුම මට්ටම්වල පිරිස් සඳහා ම වඩාත් නිවැරදි සහ වැදගත් තොරතුරු රාශියක් ඇතුළත් කර මෙය නිර්මාණය කර ඇත. මේ භාවිතා කිරීමේදී ඕනෑම අක්ෂරයක් මත click කිරීම තුළින් ඔබට එම අක්ෂරය පිළිබඳව නිවැරදි හා වැදගත්ම තොරතුරු සියල්ල අධ්‍යනය කිරිමේ හැකියාව ලැබේ. එමෙන්ම ස්වර,ව්‍යංජන ආදී හෝඩියේ දක්නට අක්ෂර කන්ඩාණ්ඩ මත click කිරීම තුළින් ද ඔබට එම අක්ෂර කාණ්ඩ පිළිබඳවද අධ්‍යනය කිරීමේ පහසුව සලසා දී ඇත. තවද, දකුණු පස තීරුවේ ඇති ( ජංගම දුරකථන වල භාවිතයේ දී පහතින් දක්නට ඇති ) අක්ෂර ප්‍රවර්ග මත click කිරීම තුළින් ඔබට ඒ ඒ අක්ෂර ප්‍රවර්ගය පිළිබඳවද වෙන වෙනම අධ්‍යනය අධ්‍යනය කිරීමේ පහසුව ද මෙය තුළින් සලසා දී ඇත. එමෙන්ම තවත් බොහෝ අංග ද සහිතව ආකර්ෂණීයව නිර්මාණය කර ඇති මෙම smart Sinhala alphabet එක හොඳින් භාවිතා කර විෂය පිළිබඳ දැනුම ඔබත් පුළුල් කරගන්න.</p>
-                         <p>This is the first smart alphabet created in the world.  It is a fact that we should be proud of as a country that it was created in the Sinhala alphabet used in Sri Lanka.  By clicking on each character here, you can easily know all the details about that character.  Also, by clicking on various groups of characters found in the alphabet such as vowels, consonants and consonants, it is also possible to know many details about them.  Furthermore, this smart sinhala alphabet has also given you the ability to easily study them separately by clicking on the different character categories in the right column.  Use it well and increase your knowledge.</p>
+                         <p>ලෝකයේ ඇති භාෂාවන් බොහෝය. ඒ සෑම භාෂාවකට ම පාහේ පිළිගත් වර්ණමාලාවක් හෙවත් අක්ෂර මාලාවක් දක්නට ඇත. නමුත් ඒ කිසිදු අක්ෂර මාලාවකට මේ තාක් සුහුරු හෙවත් “Smart” අක්ෂර මාලාවක් නිර්මාණය වී නොමැත. ලොව ප්‍රථම වරට නිපැයෙන එම සුහුරු අක්ෂර මාලාව “සිංහල” අක්ෂර මාලාව වෙනුවෙන් සකස් කිරීමට අපි (ජගත් කුමාර ජයසිංහ, කවිඳු නිම්සර ජයසිංහ) උත්සුක වුනෙමු. සිංහල භාෂාව ඉගෙනගන්නා මෙන් ම උගන්වන සියලු දෙනාට මෙය එකසේ ප්‍රයෝජනවත් වෙනු ඇතැයි අපි විශ්වාස කරමු. මෙහි ඇති විශේෂත්වය වන්නේ ඕනෑම අක්ෂරයක් මත click කිරීම තුළින් ඔබට එම අක්ෂරය පිළිබඳ ව නිවැරදි හා වැදගත් ම තොරතුරු සියල්ල අධ්‍යනය කිරිමේ හැකියාව ලැබීමයි. තවද, දකුණු පස තීරුවේ දිස්වන (ජංගම දුරකථනවල භාවිතයේ දී පහතින් දිස්වන) අක්ෂර ප්‍රවර්ග මත click කිරීම තුළින් ඔබට ඒ ඒ අක්ෂර ප්‍රවර්ගය පිළිබඳව ද වෙන වෙන ම අධ්‍යනය කිරීමේ පහසුව මෙතුළින් සලසා දී ඇත. මෙම smart Sinhala alphabet එක හොඳින් භාවිතා කර විෂය පිළිබඳ දැනුම ඔබත් පුළුල් කරගන්න.</p>
+                         <p>There are many languages ​in the world. Almost every language has a recognized alphabet. But none of those alphabets han't been developed to a Smart alphabet. We (Jagath Kumara Jayasinghe, Kavindu Nimsara Jayasinghe) were anxious to prepare the familiar script for the "Sinhala alphabet", which was produced for the first time in the world. We believe that this will be equally useful for all learners as well as teachers of Sinhala language. The special feature of this is that by clicking on any character, you will get the ability to study all the correct and important information about that character. Furthermore, by clicking on the character categories that appear in the right-hand column (appears below in the case of mobile phones), you are provided with the convenience of studying separately about each character category. Use this smart Sinhala alphabet well and expand your knowledge of the subject.</p>
                     </div>
                     <div className='mainakurutitleinmobile'>
                         <h2 onClick={()=>setShowSwara(!showSwara)}>✥ ස්වර ✥</h2>

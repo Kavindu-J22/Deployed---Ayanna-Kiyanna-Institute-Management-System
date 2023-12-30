@@ -15,6 +15,25 @@
     min-height: 130px;
     font-size: 1.7em;
 }
+.Visitorbox{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    color: #ece7e7;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.618);
+    font-size: 0.7em;
+    padding-right: 20px;
+}
+.PU_Units{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
 .NuthanahodiyaMain-MAinTitelbox h1{
     color: #fff;
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.618);
@@ -1679,6 +1698,10 @@
         font-size: 1.1em;
         font-weight: 600;
     }
+    .Visitorbox{
+        font-size: 0.8em;
+        padding-right: 10px;
+    }
 }
 
 
@@ -1921,5 +1944,12 @@
         width: 155px;
         height: 30px;
         color: #010114;
+    }
+    .Visitorbox{
+        font-size: 0.8em;
+        padding-right: 10px;
+    }
+    .PU_Units{
+        flex-direction: column;
     }
 }

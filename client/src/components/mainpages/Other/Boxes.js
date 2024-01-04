@@ -27,7 +27,7 @@ function Boxes() {
                             <div className='B-content'>
                             <i class="fa-solid fa-newspaper"></i>
                             <h3>ව්‍යාකරණ</h3>
-                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය. </p>
+                            <p>භාෂාවේ හදවත ව්‍යාකරණයයි. එහි ඇති ජීව ගුණය නොනසා නිවැරදි ම අයුරින් ලබාගැනීමට මෙතැනින් පිවිසෙන්න. </p>
                             <a href="/boxes/viyabox">
                                 <a class="B-button" type="submit">See More</a>
                             </a>
@@ -38,7 +38,7 @@ function Boxes() {
                             <div className='B-content'>
                             <i class="fa-solid fa-newspaper"></i>
                             <h3>සාහිත්‍ය</h3>
-                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</p>
+                            <p>“සහිතස්‍යභාවං සාහිත්‍යම්” සහිත බව සාහිත්‍යයයි. අර්ථ සහිත, ගුණ සහිත රස සහිත දේ ලබන්නට මෙතැනින් පිවිසෙන්න.</p>
                             <a href="/boxes/litbox">
                                 <a class="B-button" type="submit">See More</a>
                             </a>
@@ -49,7 +49,7 @@ function Boxes() {
                             <div className='B-content'>
                             <i class="fa-solid fa-newspaper"></i>
                             <h3>අක්ෂර මාලාව</h3>
-                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</p>
+                            <p>“සියවසේ අපගේ විශිෂ්ටතම ජයග්‍රහණය සුහුරු සිහල අක්ෂර මාලාවයි”</p>
                             <a href="/boxes/AksharaMalawa">
                                 <a class="B-button" type="submit">See More</a>
                             </a>
@@ -68,7 +68,7 @@ function Boxes() {
                             <div className='B-content'>
                             <i class="fa-solid fa-newspaper"></i>
                             <h3>Paper Bank</h3>
-                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</p>
+                            <p>නිසි ආකෘතියෙන්  යුත් ඕනෑම පන්තියක ප්‍රශ්න පත්‍රයක් ලබාගැනීමට මෙතැනනින් පිවිසෙන්න.</p>
                             <a href="/boxes/Paperbank">
                                 <a class="B-button" type="submit">See More</a>
                             </a>
@@ -79,7 +79,7 @@ function Boxes() {
                             <div className='B-content'>
                             <i class="fa-solid fa-newspaper"></i>
                             <h3>Online Exams</h3>
-                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</p>
+                            <p>විවිධ ආකාරයෙන් පැවැත්වෙන අපගේ විභාග පරීක්ෂණ සඳහා මෙතැනින් පිවිසෙන්න.</p>
                             <a href="/boxes/OnlineExams">
                                 <a class="B-button" type="submit">See More</a>
                             </a>
@@ -90,7 +90,7 @@ function Boxes() {
                             <div className='B-content'>
                             <i class="fa-solid fa-newspaper"></i>
                             <h3>Speed Tests</h3>
-                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</p>
+                            <p>ඔබගේ සිංහල දැනුම පිළිබඳ ඔබට ම උරගා බැලීමට මෙතැනින් පිවිසෙන්න.</p>
                             <a href="/boxes/Qtgrade">
                                 <a class="B-button" type="submit">See More</a>
                             </a>
@@ -151,7 +151,7 @@ function Boxes() {
                             <div className='B-content'>
                             <i class="fa-solid fa-newspaper"></i>
                             <h3>අයන්න කියන්න<br/>E-Magazine</h3>
-                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</p>
+                            <p>“අයන්න කියන්න” විද්‍යුත් සඟරාවට මෙතැනින් පිවිසෙන්න.</p>
                             <a href="/boxes/Emagazine">
                                 <a class="B-button" type="submit">See More</a>
                             </a>
@@ -162,7 +162,7 @@ function Boxes() {
                             <div className='B-content'>
                             <i class="fa-solid fa-newspaper"></i>
                             <h3>විචාර හා ගී<br/>රසවින්දන</h3>
-                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</p>
+                            <p>ගීත අහන්න නොව ගීත කියවන්න මෙතැනින් පිවිසෙන්න.</p>
                             <a href="/boxes/Rasavindana">
                                 <a class="B-button" type="submit">See More</a>
                             </a>
@@ -173,7 +173,7 @@ function Boxes() {
                             <div className='B-content'>
                             <i class="fa-solid fa-newspaper"></i>
                             <h3>විෂය නිර්දේශ සහ ගුරු අත් පොත්</h3>
-                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</p>
+                            <p>සෑම පන්තියකට ම අදාළ විෂය නිර්දේශ ගුරු අත්පොත් හා පාඩම් සටහන් මේ තුළ අන්තර්ගතය. ලබාගැනීමට මෙතැනින් පිවිසෙන්න.</p>
                             <a href="/boxes/TeacherBook">
                                 <a class="B-button" type="submit">See More</a>
                             </a>
@@ -235,7 +235,7 @@ function Boxes() {
                             <div className='B-content'>
                             <i class="fa-solid fa-newspaper"></i>
                             <h3>වීඩියෝ පාඩම්</h3>
-                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</p>
+                            <p>විවිධ සිංහල පාඩම් සඳහා සකස් කළ වීඩියෝ පාඩම් සඳහා මෙතැනින් පිවිසෙන්න.</p>
                             <a href="/boxes/VideoLessons">
                                 <a class="B-button" type="submit">See More</a>
                             </a>
@@ -246,7 +246,7 @@ function Boxes() {
                             <div className='B-content'>
                             <i class="fa-solid fa-newspaper"></i>
                             <h3>Paper Structures</h3>
-                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</p>
+                            <p>සාමාන්‍ය පෙළ උසස්පෙළ ප්‍රශ්න පත්‍ර ආකෘති ලබාගැනීමට මෙතැනින් පිවිසෙන්න.</p>
                             <a href="/boxes/PaperStructures">
                                 <a class="B-button" type="submit">See More</a>
                             </a>
@@ -257,7 +257,7 @@ function Boxes() {
                             <div className='B-content'>
                             <i class="fa-solid fa-newspaper"></i>
                             <h3>Others</h3>
-                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</p>
+                            <p>හෙළ බස පිළිබඳ අප කළ විවිධ ගවේෂණ මෙහි අන්තර්ගත වේ. බලා ගැනීමට මෙතැනින් පිවිසෙන්න.</p>
                             <a href="/boxes/SpeOthers">
                                 <a class="B-button" type="submit">See More</a>
                             </a>
@@ -318,7 +318,7 @@ function Boxes() {
                             <div className='B-content'>
                             <i class="fa-solid fa-newspaper"></i>
                             <h3>Academic Information</h3>
-                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</p>
+                            <p>අපගේ පන්ති හා විශේෂ අධ්‍යාපනික තොරතුරු ලබාගැනීමට මෙතැනින් පිවිසෙන්න.</p>
                             <a href="/boxes/ClassDetails">
                                 <a class="B-button" type="submit">See More</a>
                             </a>
@@ -329,7 +329,7 @@ function Boxes() {
                             <div className='B-content'>
                             <i class="fa-solid fa-newspaper"></i>
                             <h3>Extracurricular Infomation</h3>
-                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</p>
+                            <p>අප පන්ති මාලාවේ විශේෂ දැනුම් දීම වෙත මෙතැනින් පිවිසෙන්න.</p>
                             <a href="/boxes/StudentColors">
                                 <a class="B-button" type="submit">See More</a>
                             </a>
@@ -340,7 +340,7 @@ function Boxes() {
                             <div className='B-content'>
                             <i class="fa-solid fa-newspaper"></i>
                             <h3>Photo<br/>Bucket</h3>
-                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</p>
+                            <p>ඔබ රූ ඡායා වෙත මෙතැනින් පිවිසෙන්න.</p>
                             <a href="/boxes/PhotoBucket">
                                 <a class="B-button" type="submit">See More</a>
                             </a>

@@ -27,7 +27,7 @@ function MainGradeTen() {
                                 
                                 <h3>පෙළ පොත</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <Link className='v-link' to="#">Explore</Link>
+                                <a className='v-link' href="https://drive.google.com/drive/folders/1xa_4hcSPSLaPyiTy4O9uuTPIrq4LbTVM?usp=sharing">Explore</a>
                             </div>
                         </div>
 
@@ -37,7 +37,7 @@ function MainGradeTen() {
                                 
                                 <h3>ව්‍යාකරණ පාඩම්</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <Link className='v-link' to="#">Explore</Link>
+                                <a className='v-link' href="https://drive.google.com/drive/folders/1CK-22sXwjLAqOtBdimXRlB53Xfl8xcpf?usp=sharing">Explore</a>
                                 </div>
                         </div>
 
@@ -47,7 +47,7 @@ function MainGradeTen() {
                                 
                                 <h3>සාහිත්‍ය පාඩම්</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <Link className='v-link' to="#">Explore</Link>
+                                <a className='v-link' href="https://drive.google.com/drive/folders/1ezKWd6sMzoZ8QTYnhxqU3cieMUqHMcw2?usp=sharing">Explore</a>
                                 </div>
                         </div>
 
@@ -57,7 +57,7 @@ function MainGradeTen() {
                                 
                                 <h3>ප්‍රශ්න පත්‍ර</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <Link className='v-link' to="#">Explore</Link>
+                                <a className='v-link' href="https://drive.google.com/drive/folders/1d6crnPntvocZ-TxFVJAgw66kyIkhd2QE?usp=sharing">Explore</a>
                                 </div>
                         </div>
 
@@ -67,7 +67,7 @@ function MainGradeTen() {
                                 
                                 <h3>වෙනත් විශේෂිත සටහන්</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <Link className='v-link' to="#">Explore</Link>
+                                <a className='v-link' href="https://drive.google.com/drive/folders/1sOk_soQh5hxLX7QdXcPbANZrbhRCJYq6?usp=sharing">Explore</a>
                                 </div>
                         </div>
 
@@ -77,7 +77,7 @@ function MainGradeTen() {
                                 
                                 <h3>වීඩියෝ පාඩම්</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <Link className='v-link' to="#">Explore</Link>
+                                <a className='v-link' href="https://drive.google.com/drive/folders/1eLrxwNGbeke6qht5MHnHPA5u4ykcukBD?usp=sharing">Explore</a>
                                 </div>
                         </div>
 
@@ -87,7 +87,7 @@ function MainGradeTen() {
                                 
                                 <h3>විෂය නිර්දේශය</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <Link className='v-link' to="#">Explore</Link>
+                                <a className='v-link' href="https://drive.google.com/drive/folders/1k7_uQMx2zH_LUOaJBXZJh1MH7X0mlWvV?usp=sharing">Explore</a>
                                 </div>
                         </div>
 

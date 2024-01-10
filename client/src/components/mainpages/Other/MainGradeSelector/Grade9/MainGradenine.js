@@ -26,7 +26,7 @@ function MainGradeNine() {
                                 
                                 <h3>පෙළ පොත</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <Link className='v-link' to="#">Explore</Link>
+                                <a className='v-link' href="https://drive.google.com/drive/folders/1pWUvNZm2x2FdfRWb3nL4lK-d3mj3c_GW?usp=sharing">Explore</a>
                             </div>
                         </div>
 
@@ -36,7 +36,7 @@ function MainGradeNine() {
                                 
                                 <h3>ව්‍යාකරණ පාඩම්</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <Link className='v-link' to="#">Explore</Link>
+                                <a className='v-link' href="https://drive.google.com/drive/folders/1j3zxURgXQNwnkWc7P4I05uRGnp_lri77?usp=sharing">Explore</a>
                                 </div>
                         </div>
 
@@ -46,7 +46,7 @@ function MainGradeNine() {
                                 
                                 <h3>සාහිත්‍ය පාඩම්</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <Link className='v-link' to="#">Explore</Link>
+                                <a className='v-link' href="https://drive.google.com/drive/folders/1EcUepk_OaXB3CCs0ArZIB0USbFdf_ews?usp=sharing">Explore</a>
                                 </div>
                         </div>
 
@@ -56,7 +56,7 @@ function MainGradeNine() {
                                 
                                 <h3>ප්‍රශ්න පත්‍ර</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <Link className='v-link' to="#">Explore</Link>
+                                <a className='v-link' href="https://drive.google.com/drive/folders/1dsRoIFD_YcU6-BZzK6ytIOOvUi7JTsZ-?usp=sharing">Explore</a>
                                 </div>
                         </div>
 
@@ -66,7 +66,7 @@ function MainGradeNine() {
                                 
                                 <h3>වෙනත් විශේෂිත සටහන්</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <Link className='v-link' to="#">Explore</Link>
+                                <a className='v-link' href="https://drive.google.com/drive/folders/1c6yl5TC2ukTtsdigQTq6wn1fXxcZ59s9?usp=sharing">Explore</a>
                                 </div>
                         </div>
 
@@ -76,7 +76,7 @@ function MainGradeNine() {
                                 
                                 <h3>වීඩියෝ පාඩම්</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <Link className='v-link' to="#">Explore</Link>
+                                <a className='v-link' href="https://drive.google.com/drive/folders/1ZKfgo-F_0-_y5mu22VXnqV1M9j4h_9nt?usp=sharing">Explore</a>
                                 </div>
                         </div>
 
@@ -86,7 +86,7 @@ function MainGradeNine() {
                                 
                                 <h3>විෂය නිර්දේශය</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <Link className='v-link' to="#">Explore</Link>
+                                <a className='v-link' href="https://drive.google.com/drive/folders/1WOl0GSeNa_Jlh8gnnZ0Zvbkw8j1lYDfv?usp=sharing">Explore</a>
                                 </div>
                         </div>
 

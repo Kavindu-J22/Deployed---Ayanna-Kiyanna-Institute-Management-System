@@ -25,7 +25,7 @@ function PaperStructures() {
                                 
                                 <h3>O/L</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <Link className='v-link' to="#">Explore</Link>
+                                <a className='v-link' href="https://drive.google.com/drive/folders/1DH9piHS38Xlz6epJpTzP8cXUvs1gcSNx?usp=sharing">Explore</a>
                             </div>
                         </div>
 
@@ -35,7 +35,7 @@ function PaperStructures() {
                                 
                                 <h3>A/L</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <Link className='v-link' to="#">Explore</Link>
+                                <a className='v-link' href="https://drive.google.com/drive/folders/1UkkYgh3ZqAWia4xaD6WP9cOMIp8mKaHs?usp=sharing">Explore</a>
                                 </div>
                         </div>
 
@@ -45,7 +45,7 @@ function PaperStructures() {
                                 
                                 <h3>සිංහල සාහිත්‍යය (කාණ්ඩ විෂය)</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <Link className='v-link' to="#">Explore</Link>
+                                <a className='v-link' href="https://drive.google.com/drive/folders/1iYN_aUi9ppj3Q0KKcac855ZzXaNzllwb?usp=sharing">Explore</a>
                                 </div>
                         </div>
 

@@ -26,7 +26,7 @@ function MainGradeLit() {
                                 
                                 <h3>පෙළ පොත</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <Link className='v-link' to="#">Explore</Link>
+                                <a className='v-link' href="https://drive.google.com/drive/folders/13CfX6Xu9rEm4SR6GBAyaJ_BpYu67vrB5?usp=sharing">Explore</a>
                             </div>
                         </div>
 
@@ -36,7 +36,7 @@ function MainGradeLit() {
                                 
                                 <h3>පාඩම්</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <Link className='v-link' to="#">Explore</Link>
+                                <a className='v-link' href="https://drive.google.com/drive/folders/1ovnFaN7DnwuculbR8SxTgG-ZohZMxwA7?usp=sharing">Explore</a>
                                 </div>
                         </div>
 
@@ -46,7 +46,7 @@ function MainGradeLit() {
                                 
                                 <h3>ප්‍රශ්න පත්‍ර</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <Link className='v-link' to="#">Explore</Link>
+                                <a className='v-link' href="https://drive.google.com/drive/folders/1nA2K9Asos7sKKXcJXXC5rq4di_lwk_dG?usp=sharing">Explore</a>
                                 </div>
                         </div>
 
@@ -56,7 +56,7 @@ function MainGradeLit() {
                                 
                                 <h3>වෙනත් විශේෂිත සටහන්</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <Link className='v-link' to="#">Explore</Link>
+                                <a className='v-link' href="https://drive.google.com/drive/folders/1Pvf5e-YiEDCM8n3Z0pHqh39691WCWQCQ?usp=sharing">Explore</a>
                                 </div>
                         </div>
 
@@ -66,7 +66,7 @@ function MainGradeLit() {
                                 
                                 <h3>වීඩියෝ පාඩම්</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <Link className='v-link' to="#">Explore</Link>
+                                <a className='v-link' href="https://drive.google.com/drive/folders/1wPxXrL2OiU9rot6Ku2aQczj3dXtWHcjk?usp=sharing">Explore</a>
                                 </div>
                         </div>
 
@@ -76,7 +76,7 @@ function MainGradeLit() {
                                 
                                 <h3>විෂය නිර්දේශය</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <Link className='v-link' to="#">Explore</Link>
+                                <a className='v-link' href="https://drive.google.com/drive/folders/1DV-51IsnT7dOx8UEFAUCB_NDA8CV6ruQ?usp=sharing">Explore</a>
                                 </div>
                         </div>
 

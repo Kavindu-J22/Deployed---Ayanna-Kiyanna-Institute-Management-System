@@ -27,7 +27,7 @@ function PhotoBucket() {
                                 
                                 <h3>සිංහල මහා සම්මන්ත්‍රණය</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <Link className='v-link' to="#">Explore</Link>
+                                <a className='v-link' href="https://drive.google.com/drive/folders/1aJkGz7F9pcbugQ8Fei17ciRywQI4igjk?usp=sharing">Explore</a>
                             </div>
                         </div>
 
@@ -37,7 +37,7 @@ function PhotoBucket() {
                                 
                                 <h3>our classes</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <Link className='v-link' to="#">Explore</Link>
+                                <a className='v-link' href="https://drive.google.com/drive/folders/1_gnQhXpGlr1I5J31Zbwgx6J-bMZHVEKi?usp=sharing">Explore</a>
                                 </div>
                         </div>
 
@@ -47,7 +47,7 @@ function PhotoBucket() {
                                 
                                 <h3>our events</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <Link className='v-link' to="#">Explore</Link>
+                                <a className='v-link' href="https://drive.google.com/drive/folders/1n2zZ8U5Bu44w9nPv68oHJo1vUyCvWIu-?usp=sharing">Explore</a>
                                 </div>
                         </div>
 
@@ -57,7 +57,7 @@ function PhotoBucket() {
                                 
                                 <h3>other photos</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමට.</h5>   
-                                <Link className='v-link' to="#">Explore</Link>
+                                <a className='v-link' href="https://drive.google.com/drive/folders/1sCuYa3rA-eJIJ6b1FV8o56Jy7ZweZfMd?usp=sharing">Explore</a>
                                 </div>
                         </div>
 

@@ -26,7 +26,7 @@ function MainGradeAL() {
                                 
                                 <h3>පෙළ පොත</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <Link className='v-link' to="#">Explore</Link>
+                                <a className='v-link' href="https://drive.google.com/drive/folders/1eva-bnihX8dMPJvzyidZPPa6NHg3HJVo?usp=sharing">Explore</a>
                             </div>
                         </div>
 
@@ -36,7 +36,7 @@ function MainGradeAL() {
                                 
                                 <h3>ව්‍යාකරණ පාඩම්</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <Link className='v-link' to="#">Explore</Link>
+                                <a className='v-link' href="https://drive.google.com/drive/folders/1Ecw-zJWaUfhGvxfHqH834rXcnka3jlYL?usp=sharing">Explore</a>
                                 </div>
                         </div>
 
@@ -46,7 +46,7 @@ function MainGradeAL() {
                                 
                                 <h3>සාහිත්‍ය පාඩම්</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <Link className='v-link' to="#">Explore</Link>
+                                <a className='v-link' href="https://drive.google.com/drive/folders/1MmB-3jLfFbeEW4oK51-Z8CzE8iL7EYBL?usp=sharing">Explore</a>
                                 </div>
                         </div>
 
@@ -56,7 +56,7 @@ function MainGradeAL() {
                                 
                                 <h3>ප්‍රශ්න පත්‍ර</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <Link className='v-link' to="#">Explore</Link>
+                                <a className='v-link' href="https://drive.google.com/drive/folders/1AOmd-ecBnqE8vSIuDle-jgisDH2XDXJb?usp=sharing">Explore</a>
                                 </div>
                         </div>
 
@@ -66,7 +66,7 @@ function MainGradeAL() {
                                 
                                 <h3>වෙනත් විශේෂිත සටහන්</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <Link className='v-link' to="#">Explore</Link>
+                                <a className='v-link' href="https://drive.google.com/drive/folders/1D5sSHjS75uSy2FXWlt0U_lIpKlyv7pFZ?usp=sharing">Explore</a>
                                 </div>
                         </div>
 
@@ -76,7 +76,7 @@ function MainGradeAL() {
                                 
                                 <h3>වීඩියෝ පාඩම්</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <Link className='v-link' to="#">Explore</Link>
+                                <a className='v-link' href="https://drive.google.com/drive/folders/1HoPSRoCIZxN-9cYwbvgQ0Q3ErItiYoTy?usp=sharing">Explore</a>
                                 </div>
                         </div>
 
@@ -86,7 +86,7 @@ function MainGradeAL() {
                                 
                                 <h3>විෂය නිර්දේශය</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <Link className='v-link' to="#">Explore</Link>
+                                <a className='v-link' href="https://drive.google.com/drive/folders/1EZ_rzbOQuMD0DBQyvnyIXPOVHFFAoM2J?usp=sharing">Explore</a>
                                 </div>
                         </div>
 

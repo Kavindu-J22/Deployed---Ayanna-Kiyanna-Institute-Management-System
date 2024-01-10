@@ -73,7 +73,7 @@ function ViyaBox() {
                                 
                                 <h3>විභක්ති</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <a href='https://drive.google.com/drive/folders/1utT4Q_bysVd7jX3x0VAeq8P-qnnN82YB?usp=sharing'>Explore</a>
+                                <a href='https://drive.google.com/file/d/1-lOpTd6ZcyHuBAIHPdckfMARDFUWFLtV/view?usp=sharing'>Explore</a>
                                 </div>
                         </div>
 

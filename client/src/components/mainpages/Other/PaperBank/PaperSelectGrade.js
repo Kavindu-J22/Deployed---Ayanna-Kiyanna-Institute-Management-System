@@ -23,42 +23,42 @@ function PselectGrade() {
                     </div> 
 
                         <div className='G-gcard'>
-                        <Link to="#">
+                        <a href="https://drive.google.com/drive/folders/1dsRoIFD_YcU6-BZzK6ytIOOvUi7JTsZ-?usp=sharing">
                             <div className='G-icon'><i>09</i></div>
                             <div className='G-Content'>
                                 <h3>9 ශ්‍රේණිය</h3>
                                 <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය. නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
                             </div>   
-                        </Link>
+                        </a>
                         </div>
                         
 
                         <div className='G-gcard'>
-                        <Link to="#">
+                        <a href="https://drive.google.com/drive/folders/1d6crnPntvocZ-TxFVJAgw66kyIkhd2QE?usp=sharing">
                             <div className='G-icon'><i>10</i></div>
                             <div className='G-Content'>
                                 <h3>10 ශ්‍රේණිය</h3>
                                 <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය. නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
                             </div>
-                        </Link>
+                        </a>
                         </div>
                         <div className='G-gcard'>
-                        <Link to="#">
+                        <a href="https://drive.google.com/drive/folders/1a3GB1Zs8cU1wneWdwTCqz_zGtUo687AV?usp=sharing">
                             <div className='G-icon'><i>11</i></div>
                             <div className='G-Content'>
                                 <h3>11 ශ්‍රේණිය</h3>
                                 <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය. නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
                             </div>
-                        </Link>
+                        </a>
                         </div>
                         <div className='G-gcard'>
-                        <Link to="#">
+                        <a href="https://drive.google.com/drive/folders/1AOmd-ecBnqE8vSIuDle-jgisDH2XDXJb?usp=sharing">
                             <div className='G-icon'><i>A/L</i></div>
                             <div className='G-Content'>
                                 <h3>A/L</h3>
                                 <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය. නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
                             </div>
-                        </Link>
+                        </a>
                         </div>
                 </div>
                 

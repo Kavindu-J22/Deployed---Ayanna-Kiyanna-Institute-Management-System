@@ -26,7 +26,7 @@ function Nuthanagadya() {
                                 <div className='TP-Drop_content'>
                                     <h2>01</h2>
                                     <h3>කෙටිකතා</h3>
-                                    <Link to="#">Explore</Link>
+                                    <a href="https://drive.google.com/drive/folders/1ZuSTlDAkhtSFAHjbq6d1dEzzQNSkdAzW?usp=sharing">Explore</a>
                                 </div>   
                             </div>
                             
@@ -35,7 +35,7 @@ function Nuthanagadya() {
                             <div className='TP-Drop_content'>
                                 <h2>02</h2>
                                 <h3>නවකතා</h3>
-                                <Link to="#">Explore</Link>
+                                <a href="https://drive.google.com/drive/folders/1pDChj4xQj1G3qrpcJKimX8-UKyWoGBSd?usp=sharing">Explore</a>
                             </div>
                         </div>
                     

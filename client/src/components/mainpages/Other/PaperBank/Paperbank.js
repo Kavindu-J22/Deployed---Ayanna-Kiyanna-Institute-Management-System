@@ -34,7 +34,7 @@ function Paperbank() {
                                 
                                 <h3>සිංහල සාහිත්‍යය (කාණ්ඩ විෂය)</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <Link className='v-link' to="#">Explore</Link>
+                                <a className='v-link' href="https://drive.google.com/drive/folders/1nA2K9Asos7sKKXcJXXC5rq4di_lwk_dG?usp=sharing">Explore</a>
                                 </div>
                         </div>
 

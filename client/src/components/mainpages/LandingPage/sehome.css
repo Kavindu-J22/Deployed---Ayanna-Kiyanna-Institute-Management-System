@@ -725,7 +725,7 @@
     width: 8px;
     height: 8px;
     background: rgba(243, 239, 239, 0.304);
-    box-shadow: 0 0 0 3px rgb(29, 4, 21), 0 0 10px rgb(135, 5, 90), 0 0 25px rgb(135, 5, 90);
+    box-shadow: 0 0 0 3px rgb(207, 146, 5), 0 0 10px rgb(135, 5, 90), 0 0 25px rgb(135, 5, 90);
     border-radius: 50%;
     margin: 25vh 20px 0 20px;
     z-index: 2;

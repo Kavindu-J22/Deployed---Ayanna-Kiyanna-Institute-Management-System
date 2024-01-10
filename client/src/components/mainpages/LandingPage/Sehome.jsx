@@ -70,7 +70,7 @@ function Sehome(){
       <div className="SeNeonText-tltlebox" data-aos="slide-up">
         <div className="Se-Lightbar"></div>
         <div className="Se-toplayer"></div>
-      <h2>➷ The Sri Lanka's Best ⦁<br/><span>⟿ E - sinhala Platform ⟿</span></h2><br/>
+      <h2>➷ Sri Lanka's Best ⦁<br/><span>⟿ E - sinhala Platform ⟿</span></h2><br/>
       </div>
         
       <div className="SEconteudo-main">

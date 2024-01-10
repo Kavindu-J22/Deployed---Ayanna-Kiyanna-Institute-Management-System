@@ -43,7 +43,7 @@ function AksharaMalawa() {
                                 
                                 <h3>ස්වර</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <Link className='v-link' to="#">Explore</Link>
+                                <a className='v-link' href="https://drive.google.com/drive/folders/14VILPQR1R7NN35D3SJ57jeBwBrSkrPx2?usp=sharing">Explore</a>
                             </div>
                         </div>
 
@@ -53,7 +53,7 @@ function AksharaMalawa() {
                                 
                                 <h3>ව්‍යංජන</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <Link className='v-link' to="#">Explore</Link>
+                                <a className='v-link' href="https://drive.google.com/drive/folders/1TP28_la8KXYSYe-J94zfqpFBXpUV-ztf?usp=sharing">Explore</a>
                                 </div>
                         </div>
 
@@ -63,7 +63,7 @@ function AksharaMalawa() {
                                 
                                 <h3>අකාරාදී පිළිවෙල</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <Link className='v-link' to="#">Explore</Link>
+                                <a className='v-link' href="https://drive.google.com/drive/folders/1njDwVdKX-WFuLvFuGVZsVBxi_Nx_4T6q?usp=sharing">Explore</a>
                                 </div>
                         </div>
 
@@ -73,7 +73,7 @@ function AksharaMalawa() {
                                 
                                 <h3>අක්ෂර වින්‍යාසය</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <Link className='v-link' to="#">Explore</Link>
+                                <a className='v-link' href="https://drive.google.com/drive/folders/1sAqstC57kW22tblZJ3qnLIeFLa-TLzUx?usp=sharing">Explore</a>
                                 </div>
                         </div>
 

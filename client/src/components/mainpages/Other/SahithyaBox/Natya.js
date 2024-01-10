@@ -25,25 +25,25 @@ function Natya() {
                     </div> 
 
                         <div className='G-gcard'>
-                        <Link to="#">
+                        <a href="https://drive.google.com/drive/folders/1Z48vTNg78dHpBlRtz7dcvtzp79fa7z0_?usp=sharing">
                             <div className='G-icon'><i class="fa-brands fa-pied-piper-alt"></i></div>
                             <div className='G-Content'>
                                 <h3>ලෝක ධර්මී නාට්‍ය</h3>
                                 <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය. නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී ය.</p>
                             </div>   
-                        </Link>
+                        </a>
                         </div>
 
                     <div></div><div></div>
 
                         <div className='G-gcard'>
-                        <Link to="#">
+                        <a href="https://drive.google.com/drive/folders/1TzxAnanomRuacrb1Tvl1gYkgGgyAw9DS?usp=sharing">
                             <div className='G-icon'><i class="fa-solid fa-masks-theater"></i></div>
                             <div className='G-Content'>
                                 <h3>නාට්‍ය ධර්මී නාට්‍ය</h3>
                                 <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය. නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී ය.</p>
                             </div>
-                        </Link>
+                        </a>
                         </div>
                 </div>
                 

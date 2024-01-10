@@ -27,7 +27,7 @@ function Rasavindana() {
                                 
                                 <h3>විචාර රසවින්දන</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <Link className='v-link' to="#">Explore</Link>
+                                <a className='v-link' href="https://drive.google.com/drive/folders/1mheBvOiUiyG7JGH1Avry_ub0Zn7oKw8H?usp=sharing">Explore</a>
                             </div>
                         </div>
 
@@ -37,7 +37,7 @@ function Rasavindana() {
                                 
                                 <h3>ගී රසවින්දන</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <Link className='v-link' to="#">Explore</Link>
+                                <a className='v-link' href="https://drive.google.com/drive/folders/1hPHDwNDIOQxSjUetPXe-qM7tX_wadH09?usp=sharing">Explore</a>
                                 </div>
                         </div>
 
@@ -47,7 +47,7 @@ function Rasavindana() {
                                 
                                 <h3>වෙනත්</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <Link className='v-link' to="#">Explore</Link>
+                                <a className='v-link' href="https://drive.google.com/drive/folders/1h_1JgZ7cDinImvb8eoFtkcpSi2iAZ3Jd?usp=sharing">Explore</a>
                                 </div>
                         </div>
 

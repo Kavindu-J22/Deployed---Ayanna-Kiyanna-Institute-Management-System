@@ -26,7 +26,7 @@ function ViyaBox() {
                                 
                                 <h3>පිල්ලම් භාවිතය</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <a href='#'>Explore</a>
+                                <a href='https://drive.google.com/drive/folders/10oUq0U3eMD6zR_2mxZU6dGaRDB5G7Z_Q?usp=sharing'>Explore</a>
                             </div>
                         </div>
 
@@ -36,7 +36,7 @@ function ViyaBox() {
                                 
                                 <h3>නාම පද</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <a href='#'>Explore</a>
+                                <a href='https://drive.google.com/drive/folders/1-Hra-LspXB54NU3OU4X7uauXUameqKQL?usp=sharing'>Explore</a>
                                 </div>
                         </div>
 
@@ -46,7 +46,7 @@ function ViyaBox() {
                                 
                                 <h3>ක්‍රියා පද</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <a href='#'>Explore</a>
+                                <a href='https://drive.google.com/drive/folders/11dwLsb8GsQCnyj43QbJONjr5hYRb2kjX?usp=sharing'>Explore</a>
                                 </div>
                         </div>
 
@@ -56,7 +56,7 @@ function ViyaBox() {
                                 
                                 <h3>උක්ත ආඛ්‍යාත පද සම්බන්ධය</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <a href='#'>Explore</a>
+                                <a href='https://drive.google.com/drive/folders/1ktl15z1_Zs_EQmrDZAWP6q-n6i9z-CFA?usp=sharing'>Explore</a>
                                 </div>
                         </div>
 
@@ -73,7 +73,7 @@ function ViyaBox() {
                                 
                                 <h3>විභක්ති</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <a href='#'>Explore</a>
+                                <a href='https://drive.google.com/drive/folders/1utT4Q_bysVd7jX3x0VAeq8P-qnnN82YB?usp=sharing'>Explore</a>
                                 </div>
                         </div>
 
@@ -83,7 +83,7 @@ function ViyaBox() {
                                 
                                 <h3>සන්ධි</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <a href='#'>Explore</a>
+                                <a href='https://drive.google.com/drive/folders/1nW139Tz6SooW0FKJ3UXZ8559W5c1B8HM?usp=sharing'>Explore</a>
                                 </div>
                         </div>
 
@@ -93,7 +93,7 @@ function ViyaBox() {
                                 
                                 <h3>සමාස</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <a href='#'>Explore</a>
+                                <a href='https://drive.google.com/drive/folders/1zWQlFyHHjk4tM9kOcL43hVGaOoLlthiC?usp=sharing'>Explore</a>
                                 </div>
                         </div>
 
@@ -103,7 +103,7 @@ function ViyaBox() {
                                 
                                 <h3>ප්‍රත්‍යාර්ථ නාම</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <a href='#'>Explore</a>
+                                <a href='https://drive.google.com/drive/folders/13uaSyUWvuZk39pvolB0G3WA1Ut2weQRc?usp=sharing'>Explore</a>
                                 </div>
                         </div>
 
@@ -120,7 +120,7 @@ function ViyaBox() {
                                 
                                 <h3>අව්‍ය පද හා ප්‍රකෘති</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <a href='#'>Explore</a>
+                                <a href='https://drive.google.com/drive/folders/15fsqrII5BiwQFc88NLz0yeQGb2hlQEOf?usp=sharing'>Explore</a>
                                 </div>
                         </div>
 
@@ -128,9 +128,9 @@ function ViyaBox() {
                             <div className='v-content'>
                                 <h2>10</h2>
                                 
-                                <h3>ගල පද හා බහුඅර්ථ</h3>
+                                <h3>යුගල පද හා බහුඅර්ථ</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <a href='#'>Explore</a>
+                                <a href='https://drive.google.com/drive/folders/14-X_kkhVX1vGpBUAEDJbvdGNogOvJhWk?usp=sharing'>Explore</a>
                                 </div>
                         </div>
 
@@ -140,7 +140,7 @@ function ViyaBox() {
                                 
                                 <h3>සමාන හා විරුද්ධ පද</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <a href='#'>Explore</a>
+                                <a href='https://drive.google.com/drive/folders/1VOxborSMFbLANotodM7E0eaM8o9hPjRL?usp=sharing'>Explore</a>
                                 </div>
                         </div>
 
@@ -150,7 +150,7 @@ function ViyaBox() {
                                 
                                 <h3>ඉඟිවැකි, තනිපද හා වෙනත්</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <a href='#'>Explore</a>
+                                <a href='https://drive.google.com/drive/folders/11c1yLTxe-4rIgnvycaTCK2n3EcAUjXmw?usp=sharing'>Explore</a>
                                 </div>
                         </div>
 
@@ -167,7 +167,7 @@ function ViyaBox() {
                                 
                                 <h3>ශ්‍රේණියේ අනුව හදාරන්න</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <a href='#'>Explore</a>
+                                <a href='/Home/Service'>Explore</a>
                                 </div>
                         </div>
 

@@ -23,13 +23,13 @@ function Gadya() {
                     </div> 
 
                         <div className='G-gcard'>
-                        <Link to="#">
+                        <a href="https://drive.google.com/drive/folders/1LWT8kC5dXBVv7wjkH1q_0UOS1K_ZwdxN?usp=sharing">
                             <div className='G-icon'><i class="fa-brands fa-pied-piper-hat"></i></div>
                             <div className='G-Content'>
                                 <h3>පුරාතන ගද්‍ය</h3>
                                 <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය. නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
                             </div>   
-                        </Link>
+                        </a>
                         </div>
                         
 

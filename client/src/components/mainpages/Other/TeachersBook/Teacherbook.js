@@ -27,7 +27,7 @@ function TeacherBook() {
                                 
                                 <h3>විෂය නිර්දේශ</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <Link className='v-link' to="#">Explore</Link>
+                                <Link className='v-link' to="/TeacherBook/Vishayanirdesha">Explore</Link>
                             </div>
                         </div>
 
@@ -37,7 +37,7 @@ function TeacherBook() {
                                 
                                 <h3>ගුරු අත් පොත්</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <Link className='v-link' to="#">Explore</Link>
+                                <Link className='v-link' to="/TeacherBook/Guruathpoth">Explore</Link>
                                 </div>
                         </div>
 

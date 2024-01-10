@@ -79,7 +79,7 @@ function AksharaMalawa() {
 
                         <div className='v-text-card'>
                             <div className='v-content'>
-                                <h2>05</h2>
+                                <h2>06</h2>
                                 
                                 <h3>අක්ෂර මාලාව වර්ණ ගැන්වූ විග්‍රහය</h3>
                                 <h5>මෙය මේ හරහා බාගත කර මුද්‍රණය කරගත හැක</h5>   

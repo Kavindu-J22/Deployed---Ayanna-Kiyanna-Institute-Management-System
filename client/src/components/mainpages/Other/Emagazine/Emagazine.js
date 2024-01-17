@@ -27,7 +27,7 @@ function Emagazine() {
                                 
                                 <h3>අලුත්ම සඟරාව බලන්න</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <a className='v-link' href="https://drive.google.com/file/d/1Cq6v8I4UqDYCzx5s4L50yAl1IKJfBGvl/view?usp=sharing">Explore</a>
+                                <a className='v-link' href="https://drive.google.com/file/d/1UJ6q0PnmaQFF-acebqMlzwPFl5jRJZBg/view?usp=sharing">Explore</a>
                             </div>
                         </div>
 

@@ -113,7 +113,7 @@ function Pages() {
             <Route path="/OnlineExam/LitOnline" exact component={LitOnline} />
             <Route path="/Oegrade/Olonline" exact component={Olonline} />
             <Route path="/Oegrade/OegnineExlist" exact component={OegnineExlist} />
-            <Route path="/Oegrade/OegtenExlist" exact component={OegtenExlist} />
+            <Route path="/Oegrade/OegtenExlist" exact component={isLogged ? OegtenExlist :Login} />
             <Route path="/Oegrade/AlOnline" exact component={AlOnline} />
             <Route path="/Qtgrade/Qtnine" exact component={Qtnine} />
             <Route path="/Qtgrade/QtTen" exact component={QtTen} />

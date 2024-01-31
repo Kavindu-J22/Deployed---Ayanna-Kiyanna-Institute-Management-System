@@ -5,7 +5,7 @@ import Staklogo from '../../../assets/images/AKlogo.png'
 import backbtnmy from '../../../assets/images/B.png'
 
 
-function Olonline() {
+function OegnineExlist() {
 
     return (
 
@@ -20,7 +20,7 @@ function Olonline() {
 
                         <div className='v-text-container OETextcont'>
                             <h1>✥ සිංහල භාෂාව හා සාහිත්‍යය </h1>
-                            <h2>Grade 11 Online Exams List</h2>
+                            <h2>Grade 09 Online Exams List</h2>
                         </div>
 
                         
@@ -72,4 +72,4 @@ function Olonline() {
     )
 }
 
-export default Olonline
+export default OegnineExlist

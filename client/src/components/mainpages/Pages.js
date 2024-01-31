@@ -20,6 +20,8 @@ import Paperbank from './Other/PaperBank/Paperbank'
 import PselectGrade from './Other/PaperBank/PaperSelectGrade'
 import OnlineExams from './Other/OnlineExams/OnlineExam'
 import Oegrade from './Other/OnlineExams/OEgrade'
+import OegnineExlist from './Other/OnlineExams/OegnineExlist'
+import OegtenExlist from './Other/OnlineExams/OegtenExlist'
 import Olonline from './Other/OnlineExams/OeOlExList'
 import AlOnline from './Other/OnlineExams/OeAlExList'
 import LitOnline from './Other/OnlineExams/OeLitExList'
@@ -110,6 +112,8 @@ function Pages() {
             <Route path="/OnlineExam/Oegrade" exact component={Oegrade} />
             <Route path="/OnlineExam/LitOnline" exact component={LitOnline} />
             <Route path="/Oegrade/Olonline" exact component={Olonline} />
+            <Route path="/Oegrade/OegnineExlist" exact component={OegnineExlist} />
+            <Route path="/Oegrade/OegtenExlist" exact component={OegtenExlist} />
             <Route path="/Oegrade/AlOnline" exact component={AlOnline} />
             <Route path="/Qtgrade/Qtnine" exact component={Qtnine} />
             <Route path="/Qtgrade/QtTen" exact component={QtTen} />

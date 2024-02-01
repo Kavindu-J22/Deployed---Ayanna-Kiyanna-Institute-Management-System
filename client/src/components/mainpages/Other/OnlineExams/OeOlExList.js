@@ -37,7 +37,7 @@ function Olonline() {
                             <div className='TP-Drop_content' id='OeEX2'>
                                 <h2>02</h2>
                                 <h3 id='OEh3'>Exam 2</h3>
-                                <Link to="#">Attempt</Link>
+                                <a href ="https://forms.gle/Dm8puA13sGm9jSmM9">Attempt</a>
                             </div>
                         </div>
 

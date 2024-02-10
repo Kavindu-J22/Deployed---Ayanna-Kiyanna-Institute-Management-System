@@ -96,7 +96,7 @@ function MainGradeEleven() {
                                 
                                 <h3>Online Classes</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <a className='v-link' href="https://drive.google.com/drive/folders/1WOl0GSeNa_Jlh8gnnZ0Zvbkw8j1lYDfv?usp=sharing">Explore</a>
+                                <a className='v-link' href="#">Explore</a>
                                 </div>
                         </div>
 

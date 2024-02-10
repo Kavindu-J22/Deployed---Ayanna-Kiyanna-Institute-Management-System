@@ -90,6 +90,16 @@ function MainGradeEleven() {
                                 </div>
                         </div>
 
+                        <div className='v-text-card' id='v-text-card-lastitem'>
+                            <div className='v-content'>
+                                <h2>08</h2>
+                                
+                                <h3>Online Classes</h3>
+                                <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
+                                <a className='v-link' href="https://drive.google.com/drive/folders/1WOl0GSeNa_Jlh8gnnZ0Zvbkw8j1lYDfv?usp=sharing">Explore</a>
+                                </div>
+                        </div>
+
                     </div>
                 
             </section>

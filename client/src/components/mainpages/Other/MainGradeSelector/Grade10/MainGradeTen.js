@@ -91,6 +91,16 @@ function MainGradeTen() {
                                 </div>
                         </div>
 
+                        <div className='v-text-card' id='v-text-card-lastitem'>
+                            <div className='v-content'>
+                                <h2>08</h2>
+                                
+                                <h3>Online Classes</h3>
+                                <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
+                                <a className='v-link' href="https://us05web.zoom.us/j/85149210294?pwd=LLNitaUFk66eupxiH1OtEebjQFBQKT.1">Explore</a>
+                                </div>
+                        </div>
+
                     </div>
                 
             </section>

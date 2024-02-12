@@ -137,8 +137,8 @@ function Pages() {
             <Route path="/Home/Contactfooter" exact component={Contactfooter} />
 
             
-            <Route path="/login" exact component={isLogged ? Header : Login} />
-            <Route path="/register" exact component={isLogged ? Header : Register} />
+            <Route path="/login" exact component={Login} />
+            <Route path="/register" exact component={Register} />
             <Route path="/category" exact component={isAdmin ? Categories : NotFound} />
             <Route path="/create_product" exact component={isAdmin ? CreateProduct : NotFound} />
             <Route path="/edit_product/:id" exact component={isAdmin ? CreateProduct : NotFound} />

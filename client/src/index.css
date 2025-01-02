@@ -372,3 +372,28 @@ hr{
     text-shadow: 0 0 5px rgba(51, 51, 51, 0.788);
   }
 }
+
+.newcal{
+  position: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  width: 40px;
+  height: 40px;
+  bottom: 20%;
+  right: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.145);
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background: rgba(41, 42, 43, 0.523);
+  border: 1px solid rgba(85, 81, 81, 0.436);
+  border-top: 1px solid rgba(255, 255, 255, 0.526);
+  border-left: 1px solid rgba(255, 255, 255, 0.547);
+  transition: .3s;
+  z-index: 1000;
+}
+
+.newcal i{
+  font-size: 22px;
+  color: #fff;
+}

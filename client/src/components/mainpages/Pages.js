@@ -61,6 +61,7 @@ import Boxes from './Other/Boxes'
 import Products from './products/Products'
 import ProgressBar from './LandingPage/ProgressBar'
 import Contactfooter from './LandingPage/contactFooter'
+import Calender from './LandingPage/Celender'
 
 
 
@@ -78,7 +79,8 @@ function Pages() {
             <Route path="/" exact component={Header} />
             <Route path="/detail/:id" exact component={DetailProduct} />
             <Route path="/Header/NewHeader" exact component={NewHeader} />
-
+            <Route path="/Header/Calender" exact component={Calender} />
+            
 
             <Route path="/boxes/viyabox" exact component={isLogged ? Viyabox :Login} />
             <Route path="/boxes/litbox" exact component={isLogged ? Sahithyabox :Login} />
